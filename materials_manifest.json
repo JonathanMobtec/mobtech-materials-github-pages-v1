@@ -1,0 +1,81 @@
+{
+  "schema": "mobtech.materials.v1",
+  "catalog_version": "2026.05.23-demo-v1",
+  "version": "2026.05.23-demo-v1",
+  "mode": "remote_static_catalog_demo",
+  "generated_by": "ChatGPT / Mobtech DEV",
+  "generated_at": "2026-05-23 19:30:00",
+  "notes": [
+    "Catálogo demo para publicar em GitHub Pages e testar sincronização remota Mobtech v3.88+.",
+    "IMPORTANTE: substitua SEU_USUARIO na propriedade base_url de cada material pela URL real do seu GitHub Pages.",
+    "As imagens são amostras geradas para teste, não texturas comerciais oficiais."
+  ],
+  "materials": [
+    {
+      "code": "MU_BRANCO_TX",
+      "name": "MDF Branco TX",
+      "status": "active",
+      "category": "chapa",
+      "preview": "cache/previews/MU_BRANCO_TX.webp",
+      "texture": "cache/textures/MU_BRANCO_TX.jpg",
+      "source": "github_pages_demo",
+      "notes": "Textura de teste gerada para validar importação offline. Substituir por textura oficial depois.",
+      "base_url": "https://SEU_USUARIO.github.io/mobtech-materials/"
+    },
+    {
+      "code": "DU_TITANIO",
+      "name": "Duratex Titânio",
+      "status": "active",
+      "category": "chapa",
+      "preview": "cache/previews/DU_TITANIO.webp",
+      "texture": "cache/textures/DU_TITANIO.jpg",
+      "source": "github_pages_demo",
+      "notes": "Textura de teste gerada para validar importação offline. Substituir por textura oficial depois.",
+      "base_url": "https://SEU_USUARIO.github.io/mobtech-materials/"
+    },
+    {
+      "code": "DU_ITAPUA",
+      "name": "Duratex Itapuã",
+      "status": "active",
+      "category": "chapa",
+      "preview": "cache/previews/DU_ITAPUA.webp",
+      "texture": "cache/textures/DU_ITAPUA.jpg",
+      "source": "github_pages_demo",
+      "notes": "Textura de teste gerada para validar importação offline. Substituir por textura oficial depois.",
+      "base_url": "https://SEU_USUARIO.github.io/mobtech-materials/"
+    },
+    {
+      "code": "AR_CARVALHO_MEL",
+      "name": "Arauco Carvalho Mel",
+      "status": "active",
+      "category": "chapa",
+      "preview": "cache/previews/AR_CARVALHO_MEL.webp",
+      "texture": "cache/textures/AR_CARVALHO_MEL.jpg",
+      "source": "github_pages_demo",
+      "notes": "Textura de teste gerada para validar importação offline. Substituir por textura oficial depois.",
+      "base_url": "https://SEU_USUARIO.github.io/mobtech-materials/"
+    },
+    {
+      "code": "AR_CONNECT",
+      "name": "Arauco Connect",
+      "status": "active",
+      "category": "chapa",
+      "preview": "cache/previews/AR_CONNECT.webp",
+      "texture": "cache/textures/AR_CONNECT.jpg",
+      "source": "github_pages_demo",
+      "notes": "Textura de teste gerada para validar importação offline. Substituir por textura oficial depois.",
+      "base_url": "https://SEU_USUARIO.github.io/mobtech-materials/"
+    },
+    {
+      "code": "SOBRA",
+      "name": "Sobra / sem textura",
+      "status": "active",
+      "category": "especial",
+      "preview": "cache/previews/SOBRA.webp",
+      "texture": "cache/textures/SOBRA.jpg",
+      "source": "github_pages_demo",
+      "notes": "Textura de teste gerada para validar importação offline. Substituir por textura oficial depois.",
+      "base_url": "https://SEU_USUARIO.github.io/mobtech-materials/"
+    }
+  ]
+}

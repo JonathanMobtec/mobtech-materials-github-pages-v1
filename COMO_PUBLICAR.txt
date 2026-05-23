@@ -1,0 +1,20 @@
+COMO PUBLICAR NO GITHUB PAGES
+
+1) Crie um repositório público no GitHub chamado: mobtech-materials
+2) Envie TODO o conteúdo desta pasta para a raiz do repositório.
+   A raiz precisa conter: .nojekyll, index.html, README.md, materials_manifest.json e a pasta cache.
+3) No GitHub, abra Settings > Pages.
+4) Em Build and deployment, escolha: Deploy from a branch.
+5) Em Branch, escolha: main / root.
+6) Aguarde o GitHub publicar a página.
+7) Acesse:
+   https://SEU_USUARIO.github.io/mobtech-materials/
+8) Abra materials_manifest.json no GitHub e troque todas as ocorrências de:
+   https://SEU_USUARIO.github.io/mobtech-materials/
+   pela URL real do seu GitHub Pages.
+9) No Mobtech, use esta URL:
+   https://SEU_USUARIO.github.io/mobtech-materials/materials_manifest.json
+
+IMPORTANTE:
+- Mantenha a barra final / em base_url.
+- Este pacote é demo. As texturas são amostras geradas, não oficiais.

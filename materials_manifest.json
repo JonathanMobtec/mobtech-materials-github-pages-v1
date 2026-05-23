@@ -20,7 +20,7 @@
       "texture": "cache/textures/MU_BRANCO_TX.jpg",
       "source": "github_pages_demo",
       "notes": "Textura de teste gerada para validar importação offline. Substituir por textura oficial depois.",
-      "base_url": "https://SEU_USUARIO.github.io/mobtech-materials/"
+      "base_url": "https://JonathanMobtec.github.io/mobtech-materials/"
     },
     {
       "code": "DU_TITANIO",
@@ -31,7 +31,7 @@
       "texture": "cache/textures/DU_TITANIO.jpg",
       "source": "github_pages_demo",
       "notes": "Textura de teste gerada para validar importação offline. Substituir por textura oficial depois.",
-      "base_url": "https://SEU_USUARIO.github.io/mobtech-materials/"
+      "base_url": "https://JonathanMobtec.github.io/mobtech-materials/"
     },
     {
       "code": "DU_ITAPUA",
@@ -42,7 +42,7 @@
       "texture": "cache/textures/DU_ITAPUA.jpg",
       "source": "github_pages_demo",
       "notes": "Textura de teste gerada para validar importação offline. Substituir por textura oficial depois.",
-      "base_url": "https://SEU_USUARIO.github.io/mobtech-materials/"
+      "base_url": "https://JonathanMobtec.github.io/mobtech-materials/"
     },
     {
       "code": "AR_CARVALHO_MEL",
@@ -53,7 +53,7 @@
       "texture": "cache/textures/AR_CARVALHO_MEL.jpg",
       "source": "github_pages_demo",
       "notes": "Textura de teste gerada para validar importação offline. Substituir por textura oficial depois.",
-      "base_url": "https://SEU_USUARIO.github.io/mobtech-materials/"
+      "base_url": "https://JonathanMobtec.github.io/mobtech-materials/"
     },
     {
       "code": "AR_CONNECT",
@@ -64,7 +64,7 @@
       "texture": "cache/textures/AR_CONNECT.jpg",
       "source": "github_pages_demo",
       "notes": "Textura de teste gerada para validar importação offline. Substituir por textura oficial depois.",
-      "base_url": "https://SEU_USUARIO.github.io/mobtech-materials/"
+      "base_url": "https://JonathanMobtec.github.io/mobtech-materials/"
     },
     {
       "code": "SOBRA",
@@ -75,7 +75,7 @@
       "texture": "cache/textures/SOBRA.jpg",
       "source": "github_pages_demo",
       "notes": "Textura de teste gerada para validar importação offline. Substituir por textura oficial depois.",
-      "base_url": "https://SEU_USUARIO.github.io/mobtech-materials/"
+      "base_url": "https://JonathanMobtec.github.io/mobtech-materials/"
     }
   ]
 }

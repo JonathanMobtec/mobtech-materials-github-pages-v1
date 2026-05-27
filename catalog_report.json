@@ -1,16 +1,22 @@
 {
-  "schema": "mobtech.materials.v1",
-  "catalog_version": "20260526_224635",
-  "version": "20260526_224635",
-  "mode": "remote_static_catalog",
-  "generated_by": "Milimetrich Admin Web v1.5",
   "generated_at": "2026-05-27T01:46:38.865Z",
   "base_url": "https://jonathanmobtec.github.io/mobtech-materials-github-pages-v1/",
-  "notes": [
-    "Catálogo gerado pelo Milimetrich Admin Web.",
-    "Suba o conteúdo deste ZIP na raiz do GitHub Pages do catálogo.",
-    "A versão v0.8 aceita imagens soltas, ignora automaticamente arquivos de imagem corrompidos/não suportados e mostra a lista dos problemas na tela."
+  "totals": {
+    "brands": 1,
+    "materials": 110,
+    "ignored": 1,
+    "errors": 0
+  },
+  "brands": [
+    "GERAL"
   ],
+  "ignored": [
+    {
+      "file": "LEIA-ME_USAR_NO_ADMIN_WEB.txt",
+      "reason": "extensão ignorada"
+    }
+  ],
+  "errors": [],
   "materials": [
     {
       "code": "GER_ACACIA_CARMEL",

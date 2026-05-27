@@ -1,0 +1,20 @@
+CATÁLOGO DE MATERIAIS MILIMETRICH
+
+Gerado em: 2026-05-27T01:46:38.865Z
+Base URL: https://jonathanmobtec.github.io/mobtech-materials-github-pages-v1/
+
+Arquivos principais:
+- materials_manifest.json
+- cache/textures/
+- cache/previews/
+
+Como publicar:
+1. Extraia este ZIP.
+2. Envie todo o conteúdo para a raiz do repositório GitHub Pages do catálogo.
+3. Confirme se o endereço /materials_manifest.json abre no navegador.
+
+Resumo:
+- Marcas: 1
+- Materiais: 110
+- Ignorados: 1
+- Erros: 0

@@ -1,0 +1,45 @@
+{
+  "schema": "milimetrich_cloud_index_v1",
+  "schema_version": "1.0.0",
+  "cloud_name": "Milimetrich Public Cloud",
+  "updated_at": "2026-05-31T00:00:00Z",
+  "base_url": "https://jonathanmobtec.github.io/mobtech-materials-github-pages-v1/",
+  "mode": "public_static_cdn",
+  "services": {
+    "materials_v1_legacy": {
+      "status": "legacy",
+      "public": true,
+      "schema": "mobtech.materials.v1",
+      "manifest_url": "materials_manifest.json"
+    },
+    "materials_v2": {
+      "status": "active",
+      "public": true,
+      "schema": "milimetrich_materials_v2",
+      "manifest_url": "materials-v2/materials_manifest.json",
+      "brands_url": "materials-v2/brands.json",
+      "base_path": "materials-v2/"
+    },
+    "definitions_v1": {
+      "status": "reserved",
+      "public": true,
+      "schema": "milimetrich_definitions_v1",
+      "manifest_url": "definitions-v1/definitions_manifest.json",
+      "base_path": "definitions-v1/"
+    },
+    "presets_v1": {
+      "status": "reserved",
+      "public": true,
+      "schema": "milimetrich_presets_v1",
+      "manifest_url": "presets-v1/presets_manifest.json",
+      "base_path": "presets-v1/"
+    },
+    "releases": {
+      "status": "reserved",
+      "public": true,
+      "schema": "milimetrich_releases_v1",
+      "latest_url": "releases/latest.json",
+      "base_path": "releases/"
+    }
+  }
+}

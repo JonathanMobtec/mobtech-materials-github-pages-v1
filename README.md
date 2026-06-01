@@ -1,25 +1,33 @@
-# Mobtech Materials Demo Catalog
+# Milimetrich Public Cloud
 
-Catálogo demo para publicar em GitHub Pages e testar a sincronização remota de materiais do Mobtech BETA.
+Este repositorio e o CDN publico e versionado do Milimetrich via GitHub Pages.
 
-## Antes de usar no Mobtech
+Ele deve conter somente dados e assets publicos: catalogos, definicoes publicas, presets publicos, releases e arquivos estaticos publicados.
 
-Depois que o repositório estiver publicado no GitHub Pages, abra `materials_manifest.json` e substitua:
+Nao colocar aqui:
 
-`https://SEU_USUARIO.github.io/mobtech-materials/`
+* login
+* senha
+* token
+* licenca
+* preferencias pessoais de usuario
+* dados privados
+* projetos privados
 
-pela URL real do seu site, por exemplo:
+Dados privados devem ficar em backend seguro separado.
 
-`https://jonathanoliveira.github.io/mobtech-materials/`
+## Servicos publicos
 
-A barra final `/` deve permanecer.
+O arquivo principal de descoberta e `index.json`.
 
-## URL para colar no Mobtech
+Servicos declarados:
 
-Depois de publicar, use a URL:
+* `materials_v1_legacy`: catalogo legado v1 preservado em `materials_manifest.json`.
+* `materials_v2`: catalogo publico ativo em `materials-v2/`.
+* `definitions_v1`: definicoes publicas versionadas em `definitions-v1/`.
+* `presets_v1`: espaco reservado para presets publicos em `presets-v1/`.
+* `releases`: espaco reservado para metadados publicos de releases em `releases/`.
 
-`https://SEU_USUARIO.github.io/mobtech-materials/materials_manifest.json`
+## Schemas
 
-## Observação
-
-As imagens deste pacote são amostras geradas para validação técnica. Não são texturas comerciais oficiais de fabricantes.
+Os padroes publicos de manifests ficam documentados em `schemas/README.md`.

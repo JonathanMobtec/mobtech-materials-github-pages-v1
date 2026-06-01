@@ -6,6 +6,7 @@
   "updated_at": "2026-05-31T00:00:00Z",
   "groups": [
     {
+      "key": "prateleiras",
       "id": "prateleiras",
       "status": "draft",
       "labels": {
@@ -22,6 +23,7 @@
       },
       "definitions": [
         {
+          "key": "numero_prateleiras",
           "id": "numero_prateleiras",
           "status": "draft",
           "type": "integer",
@@ -71,6 +73,7 @@
           }
         },
         {
+          "key": "recuo_prateleira",
           "id": "recuo_prateleira",
           "status": "draft",
           "type": "number",
@@ -126,6 +129,7 @@
           }
         },
         {
+          "key": "recuo_prateleira_posterior",
           "id": "recuo_prateleira_posterior",
           "status": "draft",
           "type": "number",

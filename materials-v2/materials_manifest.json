@@ -1,8 +1,8 @@
 {
   "schema": "milimetrich_materials_v2",
   "schema_version": "2.0.0",
-  "catalog_version": "20260601001608",
-  "updated_at": "2026-06-01T00:16:08.325Z",
+  "catalog_version": "20260601030018",
+  "updated_at": "2026-06-01T03:00:18.340Z",
   "publication": {
     "only_active_valid": true,
     "source_total": 110,
@@ -44,8 +44,15 @@
         "widths_mm": []
       },
       "attributes": {},
-      "created_at": "2026-06-01T00:07:12.915Z",
-      "updated_at": "2026-06-01T00:07:12.915Z",
+      "created_at": "2026-06-01T02:36:09.797Z",
+      "updated_at": "2026-06-01T02:36:09.797Z",
+      "published": true,
+      "published_source": "materials-v2-online",
+      "published_catalog_version": "20260601001608",
+      "published_at": "2026-06-01T00:16:08.325Z",
+      "last_seen_published_at": "2026-06-01T02:59:55.889Z",
+      "manual_active_override": true,
+      "active_updated_at": "2026-06-01T02:50:30.920Z",
       "preview_url": "previews/ARAUCO_ACACIA_CARMEL.webp",
       "texture_url": "textures/ARAUCO_ACACIA_CARMEL.jpg",
       "brand_logo_url": "",
@@ -89,8 +96,13 @@
         "widths_mm": []
       },
       "attributes": {},
-      "created_at": "2026-06-01T00:07:12.919Z",
-      "updated_at": "2026-06-01T00:07:12.919Z",
+      "created_at": "2026-06-01T02:36:09.802Z",
+      "updated_at": "2026-06-01T02:36:09.802Z",
+      "published": true,
+      "published_source": "materials-v2-online",
+      "published_catalog_version": "20260601001608",
+      "published_at": "2026-06-01T00:16:08.325Z",
+      "last_seen_published_at": "2026-06-01T02:59:55.889Z",
       "preview_url": "previews/ARAUCO_AMEIXA_NEGRA.webp",
       "texture_url": "textures/ARAUCO_AMEIXA_NEGRA.jpg",
       "brand_logo_url": "",
@@ -116,14 +128,11 @@
       "color_family": "",
       "tone": "",
       "legacy_codes": [],
-      "search_terms": [
-        "Anis",
-        "Arauco"
-      ],
+      "search_terms": "Anis, Arauco",
       "board": {
         "width_mm": 1830,
         "height_mm": 2750,
-        "grain_direction": "none",
+        "grain_direction": "vertical",
         "thicknesses_mm": [
           6,
           15,
@@ -137,15 +146,20 @@
         "widths_mm": []
       },
       "attributes": {},
-      "created_at": "2026-06-01T00:07:12.921Z",
-      "updated_at": "2026-06-01T00:07:36.669Z",
+      "created_at": "2026-06-01T02:36:09.805Z",
+      "updated_at": "2026-06-01T02:36:09.805Z",
+      "published": true,
+      "published_source": "materials-v2-online",
+      "published_catalog_version": "20260601001608",
+      "published_at": "2026-06-01T00:16:08.325Z",
+      "last_seen_published_at": "2026-06-01T02:59:55.889Z",
       "preview_url": "previews/ARAUCO_ANIS.webp",
       "texture_url": "textures/ARAUCO_ANIS.jpg",
       "brand_logo_url": "",
       "type": "chapa",
       "texture_width_mm": 1830,
       "texture_height_mm": 2750,
-      "grain_direction": "none"
+      "grain_direction": "vertical"
     }
   ]
 }

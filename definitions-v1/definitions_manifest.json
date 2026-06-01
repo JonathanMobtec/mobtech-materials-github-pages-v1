@@ -1,0 +1,186 @@
+{
+  "schema": "milimetrich_definitions_v1",
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "public": true,
+  "updated_at": "2026-05-31T00:00:00Z",
+  "groups": [
+    {
+      "id": "prateleiras",
+      "status": "draft",
+      "labels": {
+        "pt-BR": "Prateleiras",
+        "en-US": "Shelves"
+      },
+      "descriptions": {
+        "pt-BR": "Definicoes publicas para configuracao de prateleiras.",
+        "en-US": "Public definitions for shelf configuration."
+      },
+      "ui": {
+        "section": "prateleiras",
+        "order": 100
+      },
+      "definitions": [
+        {
+          "id": "numero_prateleiras",
+          "status": "draft",
+          "type": "integer",
+          "public": true,
+          "default_value": 1,
+          "labels": {
+            "pt-BR": "Numero de prateleiras",
+            "en-US": "Number of shelves"
+          },
+          "descriptions": {
+            "pt-BR": "Quantidade publica padrao de prateleiras do modulo.",
+            "en-US": "Official public default quantity of module shelves."
+          },
+          "validation": {
+            "required": true,
+            "min": 0,
+            "max": 20,
+            "step": 1
+          },
+          "ui": {
+            "section": "prateleiras",
+            "order": 110,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "aereo",
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_shelves",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        },
+        {
+          "id": "recuo_prateleira",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 0,
+          "labels": {
+            "pt-BR": "Recuo frontal da prateleira",
+            "en-US": "Shelf front setback"
+          },
+          "descriptions": {
+            "pt-BR": "Recuo publico padrao aplicado na frente da prateleira, em milimetros.",
+            "en-US": "Official public default setback applied to the shelf front, in millimeters."
+          },
+          "validation": {
+            "required": true,
+            "min": 0,
+            "max": 200,
+            "step": 1
+          },
+          "ui": {
+            "section": "prateleiras",
+            "order": 120,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "aereo",
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_shelves",
+                "operator": "equals",
+                "value": true
+              },
+              {
+                "field": "numero_prateleiras",
+                "operator": "greater_than",
+                "value": 0
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        },
+        {
+          "id": "recuo_prateleira_posterior",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 0,
+          "labels": {
+            "pt-BR": "Recuo posterior da prateleira",
+            "en-US": "Shelf rear setback"
+          },
+          "descriptions": {
+            "pt-BR": "Recuo publico padrao aplicado na parte posterior da prateleira, em milimetros.",
+            "en-US": "Official public default setback applied to the shelf rear, in millimeters."
+          },
+          "validation": {
+            "required": true,
+            "min": 0,
+            "max": 200,
+            "step": 1
+          },
+          "ui": {
+            "section": "prateleiras",
+            "order": 130,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "aereo",
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_shelves",
+                "operator": "equals",
+                "value": true
+              },
+              {
+                "field": "numero_prateleiras",
+                "operator": "greater_than",
+                "value": 0
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        }
+      ]
+    }
+  ]
+}

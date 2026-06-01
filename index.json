@@ -21,7 +21,7 @@
       "base_path": "materials-v2/"
     },
     "definitions_v1": {
-      "status": "reserved",
+      "status": "draft",
       "public": true,
       "schema": "milimetrich_definitions_v1",
       "manifest_url": "definitions-v1/definitions_manifest.json",

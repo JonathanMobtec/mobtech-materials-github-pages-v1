@@ -1,17 +1,21 @@
-# Pasta reservada
+# Milimetrich Definitions v1
 
-Esta pasta está reservada para uso futuro do Milimetrich Public Cloud.
+Esta pasta guarda definicoes publicas e versionadas do Milimetrich Public Cloud.
 
-Somente arquivos públicos devem ser colocados aqui.
+Arquivo principal:
 
-Não colocar:
+* `definitions_manifest.json`
+
+Somente arquivos publicos devem ser colocados aqui.
+
+Nao colocar:
 
 * login
 * senha
 * token
-* licença
-* dados privados de usuário
-* preferências pessoais
+* licenca
+* dados privados de usuario
+* preferencias pessoais
 * projetos privados
 
 Dados privados devem ficar em backend seguro separado.

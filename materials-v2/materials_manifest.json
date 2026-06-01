@@ -1,12 +1,12 @@
 {
   "schema": "milimetrich_materials_v2",
   "schema_version": "2.0.0",
-  "catalog_version": "20260601030018",
-  "updated_at": "2026-06-01T03:00:18.340Z",
+  "catalog_version": "20260601030057",
+  "updated_at": "2026-06-01T03:00:57.802Z",
   "publication": {
     "only_active_valid": true,
     "source_total": 110,
-    "published_total": 3
+    "published_total": 4
   },
   "materials": [
     {
@@ -47,9 +47,9 @@
       "created_at": "2026-06-01T02:36:09.797Z",
       "updated_at": "2026-06-01T02:36:09.797Z",
       "published": true,
-      "published_source": "materials-v2-online",
+      "published_source": "materials-v2-local-publish",
       "published_catalog_version": "20260601001608",
-      "published_at": "2026-06-01T00:16:08.325Z",
+      "published_at": "2026-06-01T03:00:22.915Z",
       "last_seen_published_at": "2026-06-01T02:59:55.889Z",
       "manual_active_override": true,
       "active_updated_at": "2026-06-01T02:50:30.920Z",
@@ -99,9 +99,9 @@
       "created_at": "2026-06-01T02:36:09.802Z",
       "updated_at": "2026-06-01T02:36:09.802Z",
       "published": true,
-      "published_source": "materials-v2-online",
+      "published_source": "materials-v2-local-publish",
       "published_catalog_version": "20260601001608",
-      "published_at": "2026-06-01T00:16:08.325Z",
+      "published_at": "2026-06-01T03:00:22.915Z",
       "last_seen_published_at": "2026-06-01T02:59:55.889Z",
       "preview_url": "previews/ARAUCO_AMEIXA_NEGRA.webp",
       "texture_url": "textures/ARAUCO_AMEIXA_NEGRA.jpg",
@@ -149,12 +149,60 @@
       "created_at": "2026-06-01T02:36:09.805Z",
       "updated_at": "2026-06-01T02:36:09.805Z",
       "published": true,
-      "published_source": "materials-v2-online",
+      "published_source": "materials-v2-local-publish",
       "published_catalog_version": "20260601001608",
-      "published_at": "2026-06-01T00:16:08.325Z",
+      "published_at": "2026-06-01T03:00:22.915Z",
       "last_seen_published_at": "2026-06-01T02:59:55.889Z",
       "preview_url": "previews/ARAUCO_ANIS.webp",
       "texture_url": "textures/ARAUCO_ANIS.jpg",
+      "brand_logo_url": "",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750,
+      "grain_direction": "vertical"
+    },
+    {
+      "code": "ARAUCO_AREAL",
+      "internal_id": 100004,
+      "name": "Areal",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Areal, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.807Z",
+      "updated_at": "2026-06-01T02:36:09.807Z",
+      "published": false,
+      "manual_active_override": true,
+      "active_updated_at": "2026-06-01T03:00:46.530Z",
+      "preview_url": "previews/ARAUCO_AREAL.webp",
+      "texture_url": "textures/ARAUCO_AREAL.jpg",
       "brand_logo_url": "",
       "type": "chapa",
       "texture_width_mm": 1830,

@@ -4,9 +4,24 @@ Status: draft
 
 Este diretório contém o contrato público inicial das definições do plugin Milimetrich.
 
-## v1.2 - Portas e folgas
+## v1.3 - Gavetas e frentes de gaveta
 
-Esta revisão mantém o grupo `prateleiras` e adiciona o grupo `portas`, com campos públicos iniciais para configuração de portas, frentes e folgas.
+Esta revisão mantém os grupos `prateleiras` e `portas`, e adiciona o grupo `gavetas`, com campos públicos iniciais para configuração de gavetas, frentes de gaveta, folgas e ferragens relacionadas.
+
+Campos adicionados no grupo `gavetas`:
+
+- `numero_gavetas`
+- `altura_gaveta`
+- `espacamento_frente_gaveta`
+- `desconto_contrafrente`
+- `folga_superior_gaveta`
+- `folga_fundo_gaveta`
+- `tipo_corredica_gaveta`
+- `tipo_fundo_gaveta`
+
+## Histórico recente
+
+### v1.2 - Portas e folgas
 
 Campos adicionados no grupo `portas`:
 
@@ -38,7 +53,8 @@ Depois de publicar no GitHub Pages:
 
 Resultado esperado após esta revisão:
 
-- grupos públicos em overlay: 2
-- campos públicos em overlay: 9
-- campos apenas do Public Cloud: 0
+- grupos públicos em overlay: 3
+- campos públicos em overlay: 17
+- campos apenas do Public Cloud puro: 0
 
+Dados privados devem ficar em backend seguro separado.

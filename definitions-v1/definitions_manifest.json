@@ -3,7 +3,7 @@
   "schema_version": "1.0.0",
   "status": "draft",
   "public": true,
-  "updated_at": "2026-06-01T00:00:00Z",
+  "updated_at": "2026-06-02T00:00:00Z",
   "groups": [
     {
       "key": "prateleiras",
@@ -512,6 +512,464 @@
               },
               {
                 "field": "supports_doors",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        }
+      ]
+    },
+    {
+      "key": "gavetas",
+      "id": "gavetas",
+      "status": "draft",
+      "labels": {
+        "pt-BR": "Gavetas e frentes de gaveta",
+        "en-US": "Drawers and drawer fronts"
+      },
+      "descriptions": {
+        "pt-BR": "Definições públicas para configuração de gavetas, frentes de gaveta, folgas e ferragens relacionadas.",
+        "en-US": "Public definitions for drawer, drawer-front, clearance and related hardware configuration."
+      },
+      "ui": {
+        "section": "gavetas",
+        "order": 300
+      },
+      "definitions": [
+        {
+          "key": "numero_gavetas",
+          "id": "numero_gavetas",
+          "status": "draft",
+          "type": "integer",
+          "public": true,
+          "default_value": 4,
+          "labels": {
+            "pt-BR": "Número de gavetas",
+            "en-US": "Number of drawers"
+          },
+          "descriptions": {
+            "pt-BR": "Quantidade pública padrão de gavetas do módulo.",
+            "en-US": "Official public default number of module drawers."
+          },
+          "validation": {
+            "required": true,
+            "min": 1,
+            "max": 12,
+            "step": 1
+          },
+          "ui": {
+            "section": "gavetas",
+            "order": 310,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_drawers",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        },
+        {
+          "key": "altura_gaveta",
+          "id": "altura_gaveta",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 120,
+          "labels": {
+            "pt-BR": "Altura da caixa da gaveta",
+            "en-US": "Drawer box height"
+          },
+          "descriptions": {
+            "pt-BR": "Altura pública padrão da caixa interna da gaveta, em milímetros.",
+            "en-US": "Official public default drawer box height, in millimeters."
+          },
+          "validation": {
+            "required": true,
+            "min": 50,
+            "max": 400,
+            "step": 1
+          },
+          "ui": {
+            "section": "gavetas",
+            "order": 320,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_drawers",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        },
+        {
+          "key": "espacamento_frente_gaveta",
+          "id": "espacamento_frente_gaveta",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 3,
+          "labels": {
+            "pt-BR": "Espaçamento entre frentes de gaveta",
+            "en-US": "Drawer front gap"
+          },
+          "descriptions": {
+            "pt-BR": "Espaçamento público padrão entre frentes de gaveta, em milímetros.",
+            "en-US": "Official public default gap between drawer fronts, in millimeters."
+          },
+          "validation": {
+            "required": true,
+            "min": 1,
+            "max": 50,
+            "step": 1
+          },
+          "ui": {
+            "section": "gavetas",
+            "order": 330,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_drawers",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        },
+        {
+          "key": "desconto_contrafrente",
+          "id": "desconto_contrafrente",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 5,
+          "labels": {
+            "pt-BR": "Desconto da contra frente",
+            "en-US": "Counter-front setback"
+          },
+          "descriptions": {
+            "pt-BR": "Desconto público padrão aplicado na contra frente da gaveta, em milímetros.",
+            "en-US": "Official public default setback applied to the drawer counter-front, in millimeters."
+          },
+          "validation": {
+            "required": true,
+            "min": 0,
+            "max": 80,
+            "step": 1
+          },
+          "ui": {
+            "section": "gavetas",
+            "order": 340,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_drawers",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        },
+        {
+          "key": "folga_superior_gaveta",
+          "id": "folga_superior_gaveta",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 6,
+          "labels": {
+            "pt-BR": "Folga superior da gaveta",
+            "en-US": "Drawer top clearance"
+          },
+          "descriptions": {
+            "pt-BR": "Folga pública padrão acima da caixa da gaveta, em milímetros.",
+            "en-US": "Official public default clearance above the drawer box, in millimeters."
+          },
+          "validation": {
+            "required": true,
+            "min": 0,
+            "max": 80,
+            "step": 1
+          },
+          "ui": {
+            "section": "gavetas",
+            "order": 350,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_drawers",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        },
+        {
+          "key": "folga_fundo_gaveta",
+          "id": "folga_fundo_gaveta",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 20,
+          "labels": {
+            "pt-BR": "Folga de profundidade da gaveta",
+            "en-US": "Drawer rear clearance"
+          },
+          "descriptions": {
+            "pt-BR": "Folga pública padrão no fundo/profundidade da gaveta, em milímetros.",
+            "en-US": "Official public default rear/depth clearance for the drawer, in millimeters."
+          },
+          "validation": {
+            "required": true,
+            "min": 0,
+            "max": 250,
+            "step": 1
+          },
+          "ui": {
+            "section": "gavetas",
+            "order": 360,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_drawers",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        },
+        {
+          "key": "tipo_corredica_gaveta",
+          "id": "tipo_corredica_gaveta",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "telescopica",
+          "labels": {
+            "pt-BR": "Tipo de corrediça da gaveta",
+            "en-US": "Drawer slide type"
+          },
+          "descriptions": {
+            "pt-BR": "Tipo público padrão de corrediça usado nas gavetas.",
+            "en-US": "Official public default slide type used in drawers."
+          },
+          "validation": {
+            "required": true,
+            "enum": [
+              "telescopica",
+              "oculta"
+            ]
+          },
+          "ui": {
+            "section": "gavetas",
+            "order": 370,
+            "control": "select",
+            "options": [
+              {
+                "value": "telescopica",
+                "label": {
+                  "pt-BR": "Telescópica",
+                  "en-US": "Telescopic"
+                }
+              },
+              {
+                "value": "oculta",
+                "label": {
+                  "pt-BR": "Oculta",
+                  "en-US": "Undermount"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_drawers",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        },
+        {
+          "key": "tipo_fundo_gaveta",
+          "id": "tipo_fundo_gaveta",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "rasgolateral",
+          "labels": {
+            "pt-BR": "Tipo de fundo da gaveta",
+            "en-US": "Drawer bottom type"
+          },
+          "descriptions": {
+            "pt-BR": "Tipo público padrão de fundo aplicado nas gavetas.",
+            "en-US": "Official public default drawer bottom type."
+          },
+          "validation": {
+            "required": true,
+            "enum": [
+              "rasgolateral",
+              "rasgo",
+              "sobreposto"
+            ]
+          },
+          "ui": {
+            "section": "gavetas",
+            "order": 380,
+            "control": "select",
+            "options": [
+              {
+                "value": "rasgolateral",
+                "label": {
+                  "pt-BR": "Rasgo lateral",
+                  "en-US": "Side groove"
+                }
+              },
+              {
+                "value": "rasgo",
+                "label": {
+                  "pt-BR": "Rasgo",
+                  "en-US": "Groove"
+                }
+              },
+              {
+                "value": "sobreposto",
+                "label": {
+                  "pt-BR": "Sobreposto",
+                  "en-US": "Overlay bottom"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_drawers",
                 "operator": "equals",
                 "value": true
               }

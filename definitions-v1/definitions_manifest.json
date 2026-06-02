@@ -6,6 +6,789 @@
   "updated_at": "2026-06-02T00:00:00Z",
   "groups": [
     {
+      "key": "medidas_gerais",
+      "id": "medidas_gerais",
+      "status": "draft",
+      "labels": {
+        "pt-BR": "Medidas gerais",
+        "en-US": "General dimensions"
+      },
+      "descriptions": {
+        "pt-BR": "Definições públicas para medidas gerais e identificação do módulo.",
+        "en-US": "Public definitions for module identity and general dimensions."
+      },
+      "ui": {
+        "section": "medidas_gerais",
+        "order": 100
+      },
+      "definitions": [
+        {
+          "key": "nome",
+          "id": "nome",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "",
+          "labels": {
+            "pt-BR": "Nome",
+            "en-US": "Nome"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para nome no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for nome in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 120
+          },
+          "ui": {
+            "section": "medidas_gerais",
+            "order": 110,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 26,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "tipo",
+          "id": "tipo",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "aereo",
+          "labels": {
+            "pt-BR": "Tipo",
+            "en-US": "Tipo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para tipo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for tipo in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 120
+          },
+          "ui": {
+            "section": "medidas_gerais",
+            "order": 120,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "lado",
+          "id": "lado",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "direita",
+          "labels": {
+            "pt-BR": "Lado",
+            "en-US": "Lado"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para lado no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for lado in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 120
+          },
+          "ui": {
+            "section": "medidas_gerais",
+            "order": 130,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "largura",
+          "id": "largura",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 800,
+          "labels": {
+            "pt-BR": "Largura",
+            "en-US": "Largura"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para largura no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for largura in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 4600,
+            "step": 1
+          },
+          "ui": {
+            "section": "medidas_gerais",
+            "order": 140,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 26,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "altura",
+          "id": "altura",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 400,
+          "labels": {
+            "pt-BR": "Altura",
+            "en-US": "Altura"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para altura no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for altura in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 5440,
+            "step": 1
+          },
+          "ui": {
+            "section": "medidas_gerais",
+            "order": 150,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 20,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "profundidade",
+          "id": "profundidade",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 800,
+          "labels": {
+            "pt-BR": "Profundidade",
+            "en-US": "Profundidade"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para profundidade no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for profundidade in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 2400,
+            "step": 1
+          },
+          "ui": {
+            "section": "medidas_gerais",
+            "order": 160,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 19,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "profundidade_direita",
+          "id": "profundidade_direita",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 400,
+          "labels": {
+            "pt-BR": "Profundidade Direita",
+            "en-US": "Profundidade Direita"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para profundidade direita no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for profundidade_direita in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 1100,
+            "step": 1
+          },
+          "ui": {
+            "section": "medidas_gerais",
+            "order": 170,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 3,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "profundidade_esquerda",
+          "id": "profundidade_esquerda",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 400,
+          "labels": {
+            "pt-BR": "Profundidade Esquerda",
+            "en-US": "Profundidade Esquerda"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para profundidade esquerda no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for profundidade_esquerda in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 1100,
+            "step": 1
+          },
+          "ui": {
+            "section": "medidas_gerais",
+            "order": 180,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 3,
+            "value_types": [
+              "number"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "estrutura_corpo",
+      "id": "estrutura_corpo",
+      "status": "draft",
+      "labels": {
+        "pt-BR": "Estrutura e corpo",
+        "en-US": "Structure and carcass"
+      },
+      "descriptions": {
+        "pt-BR": "Definições públicas para corpo, travessas, montagem e fundo.",
+        "en-US": "Public definitions for carcass, rails, assembly and back/bottom configuration."
+      },
+      "ui": {
+        "section": "estrutura_corpo",
+        "order": 200
+      },
+      "definitions": [
+        {
+          "key": "montagem_base",
+          "id": "montagem_base",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "dentro",
+          "labels": {
+            "pt-BR": "Montagem Base",
+            "en-US": "Montagem Base"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para montagem base no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for montagem_base in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 120
+          },
+          "ui": {
+            "section": "estrutura_corpo",
+            "order": 210,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 4,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "montagem_tampo",
+          "id": "montagem_tampo",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "dentro",
+          "labels": {
+            "pt-BR": "Montagem Tampo",
+            "en-US": "Montagem Tampo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para montagem tampo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for montagem_tampo in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 120
+          },
+          "ui": {
+            "section": "estrutura_corpo",
+            "order": 220,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 4,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "tampo_travessa",
+          "id": "tampo_travessa",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "tampo",
+          "labels": {
+            "pt-BR": "Tampo ou travessa",
+            "en-US": "Tampo ou travessa"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para tampo ou travessa no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for tampo_travessa in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "tampo",
+              "travessa"
+            ]
+          },
+          "ui": {
+            "section": "estrutura_corpo",
+            "order": 230,
+            "control": "select",
+            "options": [
+              {
+                "value": "tampo",
+                "label": {
+                  "pt-BR": "Tampo",
+                  "en-US": "Top"
+                }
+              },
+              {
+                "value": "travessa",
+                "label": {
+                  "pt-BR": "Travessa",
+                  "en-US": "Rail"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "tipo_fundo",
+          "id": "tipo_fundo",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "pregado",
+          "labels": {
+            "pt-BR": "Tipo de fundo",
+            "en-US": "Tipo de fundo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para tipo de fundo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for tipo_fundo in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 120
+          },
+          "ui": {
+            "section": "estrutura_corpo",
+            "order": 240,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 6,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "largura_travessa_dianteira",
+          "id": "largura_travessa_dianteira",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 90,
+          "labels": {
+            "pt-BR": "Largura Travessa Dianteira",
+            "en-US": "Largura Travessa Dianteira"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para largura travessa dianteira no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for largura_travessa_dianteira in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 180,
+            "step": 1
+          },
+          "ui": {
+            "section": "estrutura_corpo",
+            "order": 250,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "largura_travessa_posterior",
+          "id": "largura_travessa_posterior",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 90,
+          "labels": {
+            "pt-BR": "Largura Travessa Posterior",
+            "en-US": "Largura Travessa Posterior"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para largura travessa posterior no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for largura_travessa_posterior in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 180,
+            "step": 1
+          },
+          "ui": {
+            "section": "estrutura_corpo",
+            "order": 260,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "recuo_frontal",
+          "id": "recuo_frontal",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 22,
+          "labels": {
+            "pt-BR": "Recuo Frontal",
+            "en-US": "Recuo Frontal"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para recuo frontal no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for recuo_frontal in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 100,
+            "step": 1
+          },
+          "ui": {
+            "section": "estrutura_corpo",
+            "order": 270,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 6,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "recuo_posterior",
+          "id": "recuo_posterior",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 120,
+          "labels": {
+            "pt-BR": "Recuo Posterior",
+            "en-US": "Recuo Posterior"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para recuo posterior no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for recuo_posterior in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 480,
+            "step": 1
+          },
+          "ui": {
+            "section": "estrutura_corpo",
+            "order": 280,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 6,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "sentido_veio_corpo",
+          "id": "sentido_veio_corpo",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "v",
+          "labels": {
+            "pt-BR": "Sentido Veio Corpo",
+            "en-US": "Sentido Veio Corpo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para sentido veio corpo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for sentido_veio_corpo in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "v",
+              "h"
+            ]
+          },
+          "ui": {
+            "section": "estrutura_corpo",
+            "order": 290,
+            "control": "select",
+            "options": [
+              {
+                "value": "v",
+                "label": {
+                  "pt-BR": "Vertical",
+                  "en-US": "Vertical"
+                }
+              },
+              {
+                "value": "h",
+                "label": {
+                  "pt-BR": "Horizontal",
+                  "en-US": "Horizontal"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 6,
+            "value_types": [
+              "string"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "key": "prateleiras",
       "id": "prateleiras",
       "status": "draft",
@@ -14,12 +797,12 @@
         "en-US": "Shelves"
       },
       "descriptions": {
-        "pt-BR": "Definicoes publicas para configuracao de prateleiras.",
+        "pt-BR": "Definições públicas para configuração de prateleiras.",
         "en-US": "Public definitions for shelf configuration."
       },
       "ui": {
         "section": "prateleiras",
-        "order": 100
+        "order": 300
       },
       "definitions": [
         {
@@ -183,6 +966,152 @@
             "image_url": null,
             "video_url": null
           }
+        },
+        {
+          "key": "sentido_veio_prateleira",
+          "id": "sentido_veio_prateleira",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "v",
+          "labels": {
+            "pt-BR": "Sentido Veio Prateleira",
+            "en-US": "Sentido Veio Prateleira"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para sentido veio prateleira no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for sentido_veio_prateleira in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "v",
+              "h"
+            ]
+          },
+          "ui": {
+            "section": "prateleiras",
+            "order": 340,
+            "control": "select",
+            "options": [
+              {
+                "value": "v",
+                "label": {
+                  "pt-BR": "Vertical",
+                  "en-US": "Vertical"
+                }
+              },
+              {
+                "value": "h",
+                "label": {
+                  "pt-BR": "Horizontal",
+                  "en-US": "Horizontal"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "supports_shelves",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "fitagem_prateleiras",
+          "id": "fitagem_prateleiras",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "lado2",
+          "labels": {
+            "pt-BR": "Fitagem Prateleiras",
+            "en-US": "Fitagem Prateleiras"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para fitagem prateleiras no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for fitagem_prateleiras in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "sem",
+              "lado1",
+              "lado2",
+              "afrente"
+            ]
+          },
+          "ui": {
+            "section": "prateleiras",
+            "order": 350,
+            "control": "select",
+            "options": [
+              {
+                "value": "sem",
+                "label": {
+                  "pt-BR": "Sem",
+                  "en-US": "None"
+                }
+              },
+              {
+                "value": "lado1",
+                "label": {
+                  "pt-BR": "Lado 1",
+                  "en-US": "Side 1"
+                }
+              },
+              {
+                "value": "lado2",
+                "label": {
+                  "pt-BR": "Lado 2",
+                  "en-US": "Side 2"
+                }
+              },
+              {
+                "value": "afrente",
+                "label": {
+                  "pt-BR": "À frente",
+                  "en-US": "Front side"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "supports_shelves",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 6,
+            "value_types": [
+              "string"
+            ]
+          }
         }
       ]
     },
@@ -195,12 +1124,12 @@
         "en-US": "Doors and clearances"
       },
       "descriptions": {
-        "pt-BR": "Definicoes publicas para configuracao de portas, frentes e folgas das portas.",
+        "pt-BR": "Definições públicas para configuração de portas, frentes e folgas das portas.",
         "en-US": "Public definitions for door, front and door-clearance configuration."
       },
       "ui": {
         "section": "portas",
-        "order": 200
+        "order": 400
       },
       "definitions": [
         {
@@ -521,6 +1450,100 @@
             "image_url": null,
             "video_url": null
           }
+        },
+        {
+          "key": "aereo_puxador_cava",
+          "id": "aereo_puxador_cava",
+          "status": "draft",
+          "type": "boolean",
+          "public": true,
+          "default_value": true,
+          "labels": {
+            "pt-BR": "Puxador cava em aéreo",
+            "en-US": "Puxador cava em aéreo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para puxador cava em aéreo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for aereo_puxador_cava in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false
+          },
+          "ui": {
+            "section": "portas",
+            "order": 470,
+            "control": "checkbox"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "supports_doors",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 4,
+            "value_types": [
+              "boolean"
+            ]
+          }
+        },
+        {
+          "key": "recuo_puxador_cava",
+          "id": "recuo_puxador_cava",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 15,
+          "labels": {
+            "pt-BR": "Recuo Puxador Cava",
+            "en-US": "Recuo Puxador Cava"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para recuo puxador cava no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for recuo_puxador_cava in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 100,
+            "step": 1
+          },
+          "ui": {
+            "section": "portas",
+            "order": 480,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "supports_doors",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 3,
+            "value_types": [
+              "number"
+            ]
+          }
         }
       ]
     },
@@ -529,8 +1552,8 @@
       "id": "gavetas",
       "status": "draft",
       "labels": {
-        "pt-BR": "Gavetas e frentes de gaveta",
-        "en-US": "Drawers and drawer fronts"
+        "pt-BR": "Gavetas e frentes",
+        "en-US": "Drawers and fronts"
       },
       "descriptions": {
         "pt-BR": "Definições públicas para configuração de gavetas, frentes de gaveta, folgas e ferragens relacionadas.",
@@ -538,7 +1561,7 @@
       },
       "ui": {
         "section": "gavetas",
-        "order": 300
+        "order": 500
       },
       "definitions": [
         {
@@ -978,6 +2001,2810 @@
           "assets": {
             "image_url": null,
             "video_url": null
+          }
+        },
+        {
+          "key": "recuo_rasgo_gaveta",
+          "id": "recuo_rasgo_gaveta",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 10,
+          "labels": {
+            "pt-BR": "Recuo Rasgo Gaveta",
+            "en-US": "Recuo Rasgo Gaveta"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para recuo rasgo gaveta no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for recuo_rasgo_gaveta in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 100,
+            "step": 1
+          },
+          "ui": {
+            "section": "gavetas",
+            "order": 590,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "supports_drawers",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "number"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "divisores",
+      "id": "divisores",
+      "status": "draft",
+      "labels": {
+        "pt-BR": "Divisores",
+        "en-US": "Dividers"
+      },
+      "descriptions": {
+        "pt-BR": "Definições públicas para divisórias, divisores horizontais e variações internas.",
+        "en-US": "Public definitions for dividers, horizontal partitions and internal variations."
+      },
+      "ui": {
+        "section": "divisores",
+        "order": 600
+      },
+      "definitions": [
+        {
+          "key": "altura_divisor_variavel",
+          "id": "altura_divisor_variavel",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 655,
+          "labels": {
+            "pt-BR": "Altura Divisor Variavel",
+            "en-US": "Altura Divisor Variavel"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para altura divisor variavel no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for altura_divisor_variavel in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 1310,
+            "step": 1
+          },
+          "ui": {
+            "section": "divisores",
+            "order": 610,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "largura_divisor_variavel",
+          "id": "largura_divisor_variavel",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 400,
+          "labels": {
+            "pt-BR": "Largura Divisor Variavel",
+            "en-US": "Largura Divisor Variavel"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para largura divisor variavel no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for largura_divisor_variavel in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 1600,
+            "step": 1
+          },
+          "ui": {
+            "section": "divisores",
+            "order": 620,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 6,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "lado_divisor",
+          "id": "lado_divisor",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "centro",
+          "labels": {
+            "pt-BR": "Lado Divisor",
+            "en-US": "Lado Divisor"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para lado divisor no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for lado_divisor in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "3p_direita",
+              "centro",
+              "direita",
+              "esquerda"
+            ]
+          },
+          "ui": {
+            "section": "divisores",
+            "order": 630,
+            "control": "select",
+            "options": [
+              {
+                "value": "3p_direita",
+                "label": {
+                  "pt-BR": "3p_direita",
+                  "en-US": "3p_direita"
+                }
+              },
+              {
+                "value": "centro",
+                "label": {
+                  "pt-BR": "centro",
+                  "en-US": "centro"
+                }
+              },
+              {
+                "value": "direita",
+                "label": {
+                  "pt-BR": "direita",
+                  "en-US": "direita"
+                }
+              },
+              {
+                "value": "esquerda",
+                "label": {
+                  "pt-BR": "esquerda",
+                  "en-US": "esquerda"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 9,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "lado_divisor_h",
+          "id": "lado_divisor_h",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "variavel_acima",
+          "labels": {
+            "pt-BR": "Lado Divisor H",
+            "en-US": "Lado Divisor H"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para lado divisor h no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for lado_divisor_h in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "centro",
+              "variavel_acima"
+            ]
+          },
+          "ui": {
+            "section": "divisores",
+            "order": 640,
+            "control": "select",
+            "options": [
+              {
+                "value": "centro",
+                "label": {
+                  "pt-BR": "centro",
+                  "en-US": "centro"
+                }
+              },
+              {
+                "value": "variavel_acima",
+                "label": {
+                  "pt-BR": "variavel_acima",
+                  "en-US": "variavel_acima"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "fazer_prateleira",
+          "id": "fazer_prateleira",
+          "status": "draft",
+          "type": "boolean",
+          "public": true,
+          "default_value": false,
+          "labels": {
+            "pt-BR": "Fazer Prateleira",
+            "en-US": "Fazer Prateleira"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para fazer prateleira no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for fazer_prateleira in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false
+          },
+          "ui": {
+            "section": "divisores",
+            "order": 650,
+            "control": "checkbox"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "boolean"
+            ]
+          }
+        },
+        {
+          "key": "eixo",
+          "id": "eixo",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "x",
+          "labels": {
+            "pt-BR": "Eixo",
+            "en-US": "Eixo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para eixo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for eixo in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "x",
+              "y"
+            ]
+          },
+          "ui": {
+            "section": "divisores",
+            "order": 660,
+            "control": "select",
+            "options": [
+              {
+                "value": "x",
+                "label": {
+                  "pt-BR": "Eixo X",
+                  "en-US": "Axis X"
+                }
+              },
+              {
+                "value": "y",
+                "label": {
+                  "pt-BR": "Eixo Y",
+                  "en-US": "Axis Y"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 3,
+            "value_types": [
+              "string"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "painel_ripado",
+      "id": "painel_ripado",
+      "status": "draft",
+      "labels": {
+        "pt-BR": "Painel ripado",
+        "en-US": "Slatted panel"
+      },
+      "descriptions": {
+        "pt-BR": "Definições públicas para painel ripado, réguas, sarrafos e afastamentos.",
+        "en-US": "Public definitions for slatted panels, slats, battens and offsets."
+      },
+      "ui": {
+        "section": "painel_ripado",
+        "order": 700
+      },
+      "definitions": [
+        {
+          "key": "numero_reguas_ripado",
+          "id": "numero_reguas_ripado",
+          "status": "draft",
+          "type": "integer",
+          "public": true,
+          "default_value": 18,
+          "labels": {
+            "pt-BR": "Numero Reguas Ripado",
+            "en-US": "Numero Reguas Ripado"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para numero reguas ripado no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for numero_reguas_ripado in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": true,
+            "min": 0,
+            "max": 20,
+            "step": 1
+          },
+          "ui": {
+            "section": "painel_ripado",
+            "order": 710,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "espacamento_ripado",
+          "id": "espacamento_ripado",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 15,
+          "labels": {
+            "pt-BR": "Espacamento Ripado",
+            "en-US": "Espacamento Ripado"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para espacamento ripado no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for espacamento_ripado in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 100,
+            "step": 1
+          },
+          "ui": {
+            "section": "painel_ripado",
+            "order": 720,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "largura_sarrafo",
+          "id": "largura_sarrafo",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 80,
+          "labels": {
+            "pt-BR": "Largura Sarrafo",
+            "en-US": "Largura Sarrafo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para largura sarrafo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for largura_sarrafo in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 160,
+            "step": 1
+          },
+          "ui": {
+            "section": "painel_ripado",
+            "order": 730,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 6,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "largura_sarrafo_frontal",
+          "id": "largura_sarrafo_frontal",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 80,
+          "labels": {
+            "pt-BR": "Largura Sarrafo Frontal",
+            "en-US": "Largura Sarrafo Frontal"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para largura sarrafo frontal no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for largura_sarrafo_frontal in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 160,
+            "step": 1
+          },
+          "ui": {
+            "section": "painel_ripado",
+            "order": 740,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "largura_regua_engrosso",
+          "id": "largura_regua_engrosso",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 80,
+          "labels": {
+            "pt-BR": "Largura Regua Engrosso",
+            "en-US": "Largura Regua Engrosso"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para largura regua engrosso no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for largura_regua_engrosso in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 160,
+            "step": 1
+          },
+          "ui": {
+            "section": "painel_ripado",
+            "order": 750,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "altura_maxima_painel",
+          "id": "altura_maxima_painel",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 2720,
+          "labels": {
+            "pt-BR": "Altura Maxima Painel",
+            "en-US": "Altura Maxima Painel"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para altura maxima painel no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for altura_maxima_painel in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 5440,
+            "step": 1
+          },
+          "ui": {
+            "section": "painel_ripado",
+            "order": 760,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "largura_maxima_painel",
+          "id": "largura_maxima_painel",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 1800,
+          "labels": {
+            "pt-BR": "Largura Maxima Painel",
+            "en-US": "Largura Maxima Painel"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para largura maxima painel no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for largura_maxima_painel in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 3600,
+            "step": 1
+          },
+          "ui": {
+            "section": "painel_ripado",
+            "order": 770,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 6,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "fazer_regua_afastamento",
+          "id": "fazer_regua_afastamento",
+          "status": "draft",
+          "type": "boolean",
+          "public": true,
+          "default_value": true,
+          "labels": {
+            "pt-BR": "Fazer Regua Afastamento",
+            "en-US": "Fazer Regua Afastamento"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para fazer regua afastamento no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for fazer_regua_afastamento in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false
+          },
+          "ui": {
+            "section": "painel_ripado",
+            "order": 780,
+            "control": "checkbox"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 3,
+            "value_types": [
+              "boolean"
+            ]
+          }
+        },
+        {
+          "key": "rasgo_led",
+          "id": "rasgo_led",
+          "status": "draft",
+          "type": "boolean",
+          "public": true,
+          "default_value": false,
+          "labels": {
+            "pt-BR": "Rasgo para LED",
+            "en-US": "Rasgo para LED"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para rasgo para led no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for rasgo_led in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false
+          },
+          "ui": {
+            "section": "painel_ripado",
+            "order": 790,
+            "control": "checkbox"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "boolean"
+            ]
+          }
+        },
+        {
+          "key": "sentido_veio_painel",
+          "id": "sentido_veio_painel",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "v",
+          "labels": {
+            "pt-BR": "Sentido Veio Painel",
+            "en-US": "Sentido Veio Painel"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para sentido veio painel no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for sentido_veio_painel in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "v",
+              "h"
+            ]
+          },
+          "ui": {
+            "section": "painel_ripado",
+            "order": 800,
+            "control": "select",
+            "options": [
+              {
+                "value": "v",
+                "label": {
+                  "pt-BR": "Vertical",
+                  "en-US": "Vertical"
+                }
+              },
+              {
+                "value": "h",
+                "label": {
+                  "pt-BR": "Horizontal",
+                  "en-US": "Horizontal"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 3,
+            "value_types": [
+              "string"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "tamponamentos",
+      "id": "tamponamentos",
+      "status": "draft",
+      "labels": {
+        "pt-BR": "Tamponamentos e rodapé",
+        "en-US": "End panels and toe kick"
+      },
+      "descriptions": {
+        "pt-BR": "Definições públicas para tamponamentos, rodapés, elevações e acabamentos laterais.",
+        "en-US": "Public definitions for end panels, toe kicks, elevations and side finishes."
+      },
+      "ui": {
+        "section": "tamponamentos",
+        "order": 800
+      },
+      "definitions": [
+        {
+          "key": "altura_rodape",
+          "id": "altura_rodape",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 150,
+          "labels": {
+            "pt-BR": "Altura Rodape",
+            "en-US": "Altura Rodape"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para altura rodape no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for altura_rodape in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 300,
+            "step": 1
+          },
+          "ui": {
+            "section": "tamponamentos",
+            "order": 810,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 3,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "altura_sapata",
+          "id": "altura_sapata",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 20,
+          "labels": {
+            "pt-BR": "Altura Sapata",
+            "en-US": "Altura Sapata"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para altura sapata no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for altura_sapata in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 70,
+            "step": 1
+          },
+          "ui": {
+            "section": "tamponamentos",
+            "order": 820,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "engrosso",
+          "id": "engrosso",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "sem",
+          "labels": {
+            "pt-BR": "Engrosso",
+            "en-US": "Engrosso"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para engrosso no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for engrosso in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 120
+          },
+          "ui": {
+            "section": "tamponamentos",
+            "order": 830,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "fazer_vista_rodape",
+          "id": "fazer_vista_rodape",
+          "status": "draft",
+          "type": "boolean",
+          "public": true,
+          "default_value": false,
+          "labels": {
+            "pt-BR": "Fazer Vista Rodape",
+            "en-US": "Fazer Vista Rodape"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para fazer vista rodape no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for fazer_vista_rodape in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false
+          },
+          "ui": {
+            "section": "tamponamentos",
+            "order": 840,
+            "control": "checkbox"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "boolean"
+            ]
+          }
+        },
+        {
+          "key": "espacamento_travessa_rodape",
+          "id": "espacamento_travessa_rodape",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 800,
+          "labels": {
+            "pt-BR": "Espacamento Travessa Rodape",
+            "en-US": "Espacamento Travessa Rodape"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para espacamento travessa rodape no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for espacamento_travessa_rodape in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 3200,
+            "step": 1
+          },
+          "ui": {
+            "section": "tamponamentos",
+            "order": 850,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "recuo_rodape",
+          "id": "recuo_rodape",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 30,
+          "labels": {
+            "pt-BR": "Recuo Rodape",
+            "en-US": "Recuo Rodape"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para recuo rodape no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for recuo_rodape in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 120,
+            "step": 1
+          },
+          "ui": {
+            "section": "tamponamentos",
+            "order": 860,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "recuo_rodape_frontal",
+          "id": "recuo_rodape_frontal",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 50,
+          "labels": {
+            "pt-BR": "Recuo Rodape Frontal",
+            "en-US": "Recuo Rodape Frontal"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para recuo rodape frontal no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for recuo_rodape_frontal in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 200,
+            "step": 1
+          },
+          "ui": {
+            "section": "tamponamentos",
+            "order": 870,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "recuo_rodape_lateral",
+          "id": "recuo_rodape_lateral",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 7.5,
+          "labels": {
+            "pt-BR": "Recuo Rodape Lateral",
+            "en-US": "Recuo Rodape Lateral"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para recuo rodape lateral no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for recuo_rodape_lateral in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 100,
+            "step": 1
+          },
+          "ui": {
+            "section": "tamponamentos",
+            "order": 880,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "recuo_rodape_posterior",
+          "id": "recuo_rodape_posterior",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 30,
+          "labels": {
+            "pt-BR": "Recuo Rodape Posterior",
+            "en-US": "Recuo Rodape Posterior"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para recuo rodape posterior no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for recuo_rodape_posterior in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 120,
+            "step": 1
+          },
+          "ui": {
+            "section": "tamponamentos",
+            "order": 890,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "tamponamento_direita_elevacao",
+          "id": "tamponamento_direita_elevacao",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "rodape",
+          "labels": {
+            "pt-BR": "Tamponamento Direita Elevacao",
+            "en-US": "Tamponamento Direita Elevacao"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para tamponamento direita elevacao no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for tamponamento_direita_elevacao in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 120
+          },
+          "ui": {
+            "section": "tamponamentos",
+            "order": 900,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "tamponamento_direita_tipo",
+          "id": "tamponamento_direita_tipo",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "sem",
+          "labels": {
+            "pt-BR": "Tamponamento Direita Tipo",
+            "en-US": "Tamponamento Direita Tipo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para tamponamento direita tipo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for tamponamento_direita_tipo in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 120
+          },
+          "ui": {
+            "section": "tamponamentos",
+            "order": 910,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 5,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "tamponamento_esquerda_elevacao",
+          "id": "tamponamento_esquerda_elevacao",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "rodape",
+          "labels": {
+            "pt-BR": "Tamponamento Esquerda Elevacao",
+            "en-US": "Tamponamento Esquerda Elevacao"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para tamponamento esquerda elevacao no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for tamponamento_esquerda_elevacao in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 120
+          },
+          "ui": {
+            "section": "tamponamentos",
+            "order": 920,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "tamponamento_esquerda_tipo",
+          "id": "tamponamento_esquerda_tipo",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "tampo",
+          "labels": {
+            "pt-BR": "Tamponamento Esquerda Tipo",
+            "en-US": "Tamponamento Esquerda Tipo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para tamponamento esquerda tipo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for tamponamento_esquerda_tipo in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "sem",
+              "tampo"
+            ]
+          },
+          "ui": {
+            "section": "tamponamentos",
+            "order": 930,
+            "control": "select",
+            "options": [
+              {
+                "value": "sem",
+                "label": {
+                  "pt-BR": "Sem",
+                  "en-US": "None"
+                }
+              },
+              {
+                "value": "tampo",
+                "label": {
+                  "pt-BR": "Tampo",
+                  "en-US": "Top"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 6,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "tamponamento_inferior_tipo",
+          "id": "tamponamento_inferior_tipo",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "sem",
+          "labels": {
+            "pt-BR": "Tamponamento Inferior Tipo",
+            "en-US": "Tamponamento Inferior Tipo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para tamponamento inferior tipo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for tamponamento_inferior_tipo in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 120
+          },
+          "ui": {
+            "section": "tamponamentos",
+            "order": 940,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "tamponamento_superior_tipo",
+          "id": "tamponamento_superior_tipo",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "sem",
+          "labels": {
+            "pt-BR": "Tamponamento Superior Tipo",
+            "en-US": "Tamponamento Superior Tipo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para tamponamento superior tipo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for tamponamento_superior_tipo in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 120
+          },
+          "ui": {
+            "section": "tamponamentos",
+            "order": 950,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 4,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "sentido_veio_tamponamento",
+          "id": "sentido_veio_tamponamento",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "v",
+          "labels": {
+            "pt-BR": "Sentido Veio Tamponamento",
+            "en-US": "Sentido Veio Tamponamento"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para sentido veio tamponamento no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for sentido_veio_tamponamento in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "v",
+              "h"
+            ]
+          },
+          "ui": {
+            "section": "tamponamentos",
+            "order": 960,
+            "control": "select",
+            "options": [
+              {
+                "value": "v",
+                "label": {
+                  "pt-BR": "Vertical",
+                  "en-US": "Vertical"
+                }
+              },
+              {
+                "value": "h",
+                "label": {
+                  "pt-BR": "Horizontal",
+                  "en-US": "Horizontal"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 7,
+            "value_types": [
+              "string"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "fitagem",
+      "id": "fitagem",
+      "status": "draft",
+      "labels": {
+        "pt-BR": "Fitagem",
+        "en-US": "Edge banding"
+      },
+      "descriptions": {
+        "pt-BR": "Definições públicas para indicação de fitagem das peças.",
+        "en-US": "Public definitions for piece edge-banding indications."
+      },
+      "ui": {
+        "section": "fitagem",
+        "order": 900
+      },
+      "definitions": [
+        {
+          "key": "fitagem_altura",
+          "id": "fitagem_altura",
+          "status": "draft",
+          "type": "string",
+          "unit": "mm",
+          "public": true,
+          "default_value": "sem",
+          "labels": {
+            "pt-BR": "Fitagem Altura",
+            "en-US": "Fitagem Altura"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para fitagem altura no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for fitagem_altura in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "sem",
+              "lado1",
+              "lado2",
+              "afrente"
+            ]
+          },
+          "ui": {
+            "section": "fitagem",
+            "order": 910,
+            "control": "text",
+            "options": [
+              {
+                "value": "sem",
+                "label": {
+                  "pt-BR": "Sem",
+                  "en-US": "None"
+                }
+              },
+              {
+                "value": "lado1",
+                "label": {
+                  "pt-BR": "Lado 1",
+                  "en-US": "Side 1"
+                }
+              },
+              {
+                "value": "lado2",
+                "label": {
+                  "pt-BR": "Lado 2",
+                  "en-US": "Side 2"
+                }
+              },
+              {
+                "value": "afrente",
+                "label": {
+                  "pt-BR": "À frente",
+                  "en-US": "Front side"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "fitagem_base",
+          "id": "fitagem_base",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "lado1",
+          "labels": {
+            "pt-BR": "Fitagem Base",
+            "en-US": "Fitagem Base"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para fitagem base no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for fitagem_base in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "sem",
+              "lado1",
+              "lado2",
+              "afrente"
+            ]
+          },
+          "ui": {
+            "section": "fitagem",
+            "order": 920,
+            "control": "text",
+            "options": [
+              {
+                "value": "sem",
+                "label": {
+                  "pt-BR": "Sem",
+                  "en-US": "None"
+                }
+              },
+              {
+                "value": "lado1",
+                "label": {
+                  "pt-BR": "Lado 1",
+                  "en-US": "Side 1"
+                }
+              },
+              {
+                "value": "lado2",
+                "label": {
+                  "pt-BR": "Lado 2",
+                  "en-US": "Side 2"
+                }
+              },
+              {
+                "value": "afrente",
+                "label": {
+                  "pt-BR": "À frente",
+                  "en-US": "Front side"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 4,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "fitagem_largura",
+          "id": "fitagem_largura",
+          "status": "draft",
+          "type": "string",
+          "unit": "mm",
+          "public": true,
+          "default_value": "afrente",
+          "labels": {
+            "pt-BR": "Fitagem Largura",
+            "en-US": "Fitagem Largura"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para fitagem largura no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for fitagem_largura in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "sem",
+              "lado1",
+              "lado2",
+              "afrente"
+            ]
+          },
+          "ui": {
+            "section": "fitagem",
+            "order": 930,
+            "control": "text",
+            "options": [
+              {
+                "value": "sem",
+                "label": {
+                  "pt-BR": "Sem",
+                  "en-US": "None"
+                }
+              },
+              {
+                "value": "lado1",
+                "label": {
+                  "pt-BR": "Lado 1",
+                  "en-US": "Side 1"
+                }
+              },
+              {
+                "value": "lado2",
+                "label": {
+                  "pt-BR": "Lado 2",
+                  "en-US": "Side 2"
+                }
+              },
+              {
+                "value": "afrente",
+                "label": {
+                  "pt-BR": "À frente",
+                  "en-US": "Front side"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 2,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "fitagem_laterais",
+          "id": "fitagem_laterais",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "lado1",
+          "labels": {
+            "pt-BR": "Fitagem Laterais",
+            "en-US": "Fitagem Laterais"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para fitagem laterais no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for fitagem_laterais in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "sem",
+              "lado1",
+              "lado2",
+              "afrente"
+            ]
+          },
+          "ui": {
+            "section": "fitagem",
+            "order": 940,
+            "control": "text",
+            "options": [
+              {
+                "value": "sem",
+                "label": {
+                  "pt-BR": "Sem",
+                  "en-US": "None"
+                }
+              },
+              {
+                "value": "lado1",
+                "label": {
+                  "pt-BR": "Lado 1",
+                  "en-US": "Side 1"
+                }
+              },
+              {
+                "value": "lado2",
+                "label": {
+                  "pt-BR": "Lado 2",
+                  "en-US": "Side 2"
+                }
+              },
+              {
+                "value": "afrente",
+                "label": {
+                  "pt-BR": "À frente",
+                  "en-US": "Front side"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 5,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "fitagem_profundidade",
+          "id": "fitagem_profundidade",
+          "status": "draft",
+          "type": "string",
+          "unit": "mm",
+          "public": true,
+          "default_value": "sem",
+          "labels": {
+            "pt-BR": "Fitagem Profundidade",
+            "en-US": "Fitagem Profundidade"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para fitagem profundidade no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for fitagem_profundidade in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "sem",
+              "lado1",
+              "lado2",
+              "afrente"
+            ]
+          },
+          "ui": {
+            "section": "fitagem",
+            "order": 950,
+            "control": "text",
+            "options": [
+              {
+                "value": "sem",
+                "label": {
+                  "pt-BR": "Sem",
+                  "en-US": "None"
+                }
+              },
+              {
+                "value": "lado1",
+                "label": {
+                  "pt-BR": "Lado 1",
+                  "en-US": "Side 1"
+                }
+              },
+              {
+                "value": "lado2",
+                "label": {
+                  "pt-BR": "Lado 2",
+                  "en-US": "Side 2"
+                }
+              },
+              {
+                "value": "afrente",
+                "label": {
+                  "pt-BR": "À frente",
+                  "en-US": "Front side"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "fitagem_tampo",
+          "id": "fitagem_tampo",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "lado1",
+          "labels": {
+            "pt-BR": "Fitagem Tampo",
+            "en-US": "Fitagem Tampo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para fitagem tampo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for fitagem_tampo in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "sem",
+              "lado1",
+              "lado2",
+              "afrente"
+            ]
+          },
+          "ui": {
+            "section": "fitagem",
+            "order": 960,
+            "control": "text",
+            "options": [
+              {
+                "value": "sem",
+                "label": {
+                  "pt-BR": "Sem",
+                  "en-US": "None"
+                }
+              },
+              {
+                "value": "lado1",
+                "label": {
+                  "pt-BR": "Lado 1",
+                  "en-US": "Side 1"
+                }
+              },
+              {
+                "value": "lado2",
+                "label": {
+                  "pt-BR": "Lado 2",
+                  "en-US": "Side 2"
+                }
+              },
+              {
+                "value": "afrente",
+                "label": {
+                  "pt-BR": "À frente",
+                  "en-US": "Front side"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 4,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "fitagem_travessa_dianteira",
+          "id": "fitagem_travessa_dianteira",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "lado1",
+          "labels": {
+            "pt-BR": "Fitagem Travessa Dianteira",
+            "en-US": "Fitagem Travessa Dianteira"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para fitagem travessa dianteira no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for fitagem_travessa_dianteira in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "sem",
+              "lado1",
+              "lado2",
+              "afrente"
+            ]
+          },
+          "ui": {
+            "section": "fitagem",
+            "order": 970,
+            "control": "text",
+            "options": [
+              {
+                "value": "sem",
+                "label": {
+                  "pt-BR": "Sem",
+                  "en-US": "None"
+                }
+              },
+              {
+                "value": "lado1",
+                "label": {
+                  "pt-BR": "Lado 1",
+                  "en-US": "Side 1"
+                }
+              },
+              {
+                "value": "lado2",
+                "label": {
+                  "pt-BR": "Lado 2",
+                  "en-US": "Side 2"
+                }
+              },
+              {
+                "value": "afrente",
+                "label": {
+                  "pt-BR": "À frente",
+                  "en-US": "Front side"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "string"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "usinagem",
+      "id": "usinagem",
+      "status": "draft",
+      "labels": {
+        "pt-BR": "Usinagem",
+        "en-US": "Machining"
+      },
+      "descriptions": {
+        "pt-BR": "Definições públicas para rasgos, fresa, folgas de usinagem e arredondamentos.",
+        "en-US": "Public definitions for grooves, cutter diameter, machining clearances and roundovers."
+      },
+      "ui": {
+        "section": "usinagem",
+        "order": 1000
+      },
+      "definitions": [
+        {
+          "key": "diametro_fresa",
+          "id": "diametro_fresa",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 6,
+          "labels": {
+            "pt-BR": "Diametro Fresa",
+            "en-US": "Diametro Fresa"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para diametro fresa no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for diametro_fresa in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 100,
+            "step": 1
+          },
+          "ui": {
+            "section": "usinagem",
+            "order": 1010,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "raio_arredondamento",
+          "id": "raio_arredondamento",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 200,
+          "labels": {
+            "pt-BR": "Raio Arredondamento",
+            "en-US": "Raio Arredondamento"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para raio arredondamento no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for raio_arredondamento in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 800,
+            "step": 1
+          },
+          "ui": {
+            "section": "usinagem",
+            "order": 1020,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "profundidade_rasgo",
+          "id": "profundidade_rasgo",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 8,
+          "labels": {
+            "pt-BR": "Profundidade Rasgo",
+            "en-US": "Profundidade Rasgo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para profundidade rasgo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for profundidade_rasgo in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 58,
+            "step": 1
+          },
+          "ui": {
+            "section": "usinagem",
+            "order": 1030,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 5,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "folga_rasgo",
+          "id": "folga_rasgo",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 1,
+          "labels": {
+            "pt-BR": "Folga Rasgo",
+            "en-US": "Folga Rasgo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para folga rasgo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for folga_rasgo in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 100,
+            "step": 1
+          },
+          "ui": {
+            "section": "usinagem",
+            "order": 1040,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 5,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "folga_usinagem",
+          "id": "folga_usinagem",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 0.7,
+          "labels": {
+            "pt-BR": "Folga Usinagem",
+            "en-US": "Folga Usinagem"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para folga usinagem no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for folga_usinagem in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 100,
+            "step": 1
+          },
+          "ui": {
+            "section": "usinagem",
+            "order": 1050,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 5,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "recuo_rasgo",
+          "id": "recuo_rasgo",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 15,
+          "labels": {
+            "pt-BR": "Recuo Rasgo",
+            "en-US": "Recuo Rasgo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para recuo rasgo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for recuo_rasgo in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 100,
+            "step": 1
+          },
+          "ui": {
+            "section": "usinagem",
+            "order": 1060,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 4,
+            "value_types": [
+              "number"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "fixadores_dispositivos",
+      "id": "fixadores_dispositivos",
+      "status": "draft",
+      "labels": {
+        "pt-BR": "Fixadores e dispositivos",
+        "en-US": "Fasteners and fittings"
+      },
+      "descriptions": {
+        "pt-BR": "Definições públicas para dispositivos de montagem e lados de aplicação.",
+        "en-US": "Public definitions for assembly fittings and application sides."
+      },
+      "ui": {
+        "section": "fixadores_dispositivos",
+        "order": 1100
+      },
+      "definitions": [
+        {
+          "key": "dispositivo_corpo",
+          "id": "dispositivo_corpo",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "minifix",
+          "labels": {
+            "pt-BR": "Dispositivo Corpo",
+            "en-US": "Dispositivo Corpo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para dispositivo corpo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for dispositivo_corpo in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 120
+          },
+          "ui": {
+            "section": "fixadores_dispositivos",
+            "order": 1110,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 6,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "dispositivo_gaveta",
+          "id": "dispositivo_gaveta",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "minifix",
+          "labels": {
+            "pt-BR": "Dispositivo Gaveta",
+            "en-US": "Dispositivo Gaveta"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para dispositivo gaveta no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for dispositivo_gaveta in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 120
+          },
+          "ui": {
+            "section": "fixadores_dispositivos",
+            "order": 1120,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "dispositivo_prateleira",
+          "id": "dispositivo_prateleira",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "vb36",
+          "labels": {
+            "pt-BR": "Dispositivo Prateleira",
+            "en-US": "Dispositivo Prateleira"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para dispositivo prateleira no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for dispositivo_prateleira in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 120
+          },
+          "ui": {
+            "section": "fixadores_dispositivos",
+            "order": 1130,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 3,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "lado_dispositivo_corpo",
+          "id": "lado_dispositivo_corpo",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "dentro",
+          "labels": {
+            "pt-BR": "Lado Dispositivo Corpo",
+            "en-US": "Lado Dispositivo Corpo"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para lado dispositivo corpo no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for lado_dispositivo_corpo in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "enum": [
+              "dentro",
+              "fora"
+            ]
+          },
+          "ui": {
+            "section": "fixadores_dispositivos",
+            "order": 1140,
+            "control": "select",
+            "options": [
+              {
+                "value": "dentro",
+                "label": {
+                  "pt-BR": "dentro",
+                  "en-US": "dentro"
+                }
+              },
+              {
+                "value": "fora",
+                "label": {
+                  "pt-BR": "fora",
+                  "en-US": "fora"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 6,
+            "value_types": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "lado_dispositivo_prateleira",
+          "id": "lado_dispositivo_prateleira",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "abaixo",
+          "labels": {
+            "pt-BR": "Lado Dispositivo Prateleira",
+            "en-US": "Lado Dispositivo Prateleira"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para lado dispositivo prateleira no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for lado_dispositivo_prateleira in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 120
+          },
+          "ui": {
+            "section": "fixadores_dispositivos",
+            "order": 1150,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 3,
+            "value_types": [
+              "string"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "geladeira",
+      "id": "geladeira",
+      "status": "draft",
+      "labels": {
+        "pt-BR": "Geladeira e vãos técnicos",
+        "en-US": "Refrigerator and appliance clearances"
+      },
+      "descriptions": {
+        "pt-BR": "Definições públicas para vãos técnicos de geladeira/eletros.",
+        "en-US": "Public definitions for refrigerator/appliance openings and clearances."
+      },
+      "ui": {
+        "section": "geladeira",
+        "order": 1200
+      },
+      "definitions": [
+        {
+          "key": "geladeira_altura_vao",
+          "id": "geladeira_altura_vao",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 1900,
+          "labels": {
+            "pt-BR": "Geladeira Altura Vao",
+            "en-US": "Geladeira Altura Vao"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para geladeira altura vao no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for geladeira_altura_vao in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 3800,
+            "step": 1
+          },
+          "ui": {
+            "section": "geladeira",
+            "order": 1210,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "torre"
+                ]
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "number"
+            ]
+          }
+        },
+        {
+          "key": "geladeira_largura_vao",
+          "id": "geladeira_largura_vao",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 800,
+          "labels": {
+            "pt-BR": "Geladeira Largura Vao",
+            "en-US": "Geladeira Largura Vao"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para geladeira largura vao no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for geladeira_largura_vao in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 1600,
+            "step": 1
+          },
+          "ui": {
+            "section": "geladeira",
+            "order": 1220,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "torre"
+                ]
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 1,
+            "value_types": [
+              "number"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "folgas_recuos",
+      "id": "folgas_recuos",
+      "status": "draft",
+      "labels": {
+        "pt-BR": "Folgas e recuos gerais",
+        "en-US": "General clearances and setbacks"
+      },
+      "descriptions": {
+        "pt-BR": "Definições públicas para folgas e recuos gerais de segurança.",
+        "en-US": "Public definitions for general safety clearances and setbacks."
+      },
+      "ui": {
+        "section": "folgas_recuos",
+        "order": 1300
+      },
+      "definitions": [
+        {
+          "key": "folga_seguranca",
+          "id": "folga_seguranca",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 0,
+          "labels": {
+            "pt-BR": "Folga Seguranca",
+            "en-US": "Folga Seguranca"
+          },
+          "descriptions": {
+            "pt-BR": "Definição pública em draft para folga seguranca no ecossistema Milimetrich.",
+            "en-US": "Draft public definition for folga_seguranca in the Milimetrich ecosystem."
+          },
+          "validation": {
+            "required": false,
+            "min": 0,
+            "max": 100,
+            "step": 1
+          },
+          "ui": {
+            "section": "folgas_recuos",
+            "order": 1310,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          },
+          "inventory": {
+            "source": "plugin_inventory",
+            "count": 6,
+            "value_types": [
+              "number"
+            ]
           }
         }
       ]

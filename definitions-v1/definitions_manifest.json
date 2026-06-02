@@ -3,7 +3,7 @@
   "schema_version": "1.0.0",
   "status": "draft",
   "public": true,
-  "updated_at": "2026-05-31T00:00:00Z",
+  "updated_at": "2026-06-01T00:00:00Z",
   "groups": [
     {
       "key": "prateleiras",
@@ -176,6 +176,344 @@
                 "field": "numero_prateleiras",
                 "operator": "greater_than",
                 "value": 0
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        }
+      ]
+    },
+    {
+      "key": "portas",
+      "id": "portas",
+      "status": "draft",
+      "labels": {
+        "pt-BR": "Portas e folgas",
+        "en-US": "Doors and clearances"
+      },
+      "descriptions": {
+        "pt-BR": "Definicoes publicas para configuracao de portas, frentes e folgas das portas.",
+        "en-US": "Public definitions for door, front and door-clearance configuration."
+      },
+      "ui": {
+        "section": "portas",
+        "order": 200
+      },
+      "definitions": [
+        {
+          "key": "espacamento_portas",
+          "id": "espacamento_portas",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 3,
+          "labels": {
+            "pt-BR": "Espacamento entre portas",
+            "en-US": "Door gap"
+          },
+          "descriptions": {
+            "pt-BR": "Espacamento publico padrao entre portas lado a lado, em milimetros.",
+            "en-US": "Official public default gap between side-by-side doors, in millimeters."
+          },
+          "validation": {
+            "required": true,
+            "min": 1,
+            "max": 50,
+            "step": 1
+          },
+          "ui": {
+            "section": "portas",
+            "order": 210,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "aereo",
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_doors",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        },
+        {
+          "key": "folga_frentes_lateral",
+          "id": "folga_frentes_lateral",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 3,
+          "labels": {
+            "pt-BR": "Folga lateral das frentes",
+            "en-US": "Front side clearance"
+          },
+          "descriptions": {
+            "pt-BR": "Folga publica padrao aplicada nas laterais das frentes/portas, em milimetros.",
+            "en-US": "Official public default clearance applied to door/front sides, in millimeters."
+          },
+          "validation": {
+            "required": true,
+            "min": 1,
+            "max": 30,
+            "step": 1
+          },
+          "ui": {
+            "section": "portas",
+            "order": 220,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "aereo",
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_doors",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        },
+        {
+          "key": "folga_frentes_topo",
+          "id": "folga_frentes_topo",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 3,
+          "labels": {
+            "pt-BR": "Folga superior das frentes",
+            "en-US": "Front top clearance"
+          },
+          "descriptions": {
+            "pt-BR": "Folga publica padrao aplicada na parte superior das frentes/portas, em milimetros.",
+            "en-US": "Official public default clearance applied to the top of doors/fronts, in millimeters."
+          },
+          "validation": {
+            "required": true,
+            "min": 1,
+            "max": 30,
+            "step": 1
+          },
+          "ui": {
+            "section": "portas",
+            "order": 230,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "aereo",
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_doors",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        },
+        {
+          "key": "folga_frentes_base",
+          "id": "folga_frentes_base",
+          "status": "draft",
+          "type": "number",
+          "unit": "mm",
+          "public": true,
+          "default_value": 3,
+          "labels": {
+            "pt-BR": "Folga inferior das frentes",
+            "en-US": "Front bottom clearance"
+          },
+          "descriptions": {
+            "pt-BR": "Folga publica padrao aplicada na base das frentes/portas, em milimetros.",
+            "en-US": "Official public default clearance applied to the bottom of doors/fronts, in millimeters."
+          },
+          "validation": {
+            "required": true,
+            "min": 1,
+            "max": 30,
+            "step": 1
+          },
+          "ui": {
+            "section": "portas",
+            "order": 240,
+            "control": "number"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "aereo",
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_doors",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        },
+        {
+          "key": "puxador",
+          "id": "puxador",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "sem",
+          "labels": {
+            "pt-BR": "Puxador",
+            "en-US": "Handle"
+          },
+          "descriptions": {
+            "pt-BR": "Configuracao publica padrao do puxador aplicado nas portas/frentes.",
+            "en-US": "Official public default handle configuration applied to doors/fronts."
+          },
+          "validation": {
+            "required": false,
+            "max_length": 80
+          },
+          "ui": {
+            "section": "portas",
+            "order": 250,
+            "control": "text"
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "aereo",
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_doors",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          },
+          "assets": {
+            "image_url": null,
+            "video_url": null
+          }
+        },
+        {
+          "key": "sentido_veio_frentes",
+          "id": "sentido_veio_frentes",
+          "status": "draft",
+          "type": "string",
+          "public": true,
+          "default_value": "v",
+          "labels": {
+            "pt-BR": "Sentido do veio das frentes",
+            "en-US": "Front grain direction"
+          },
+          "descriptions": {
+            "pt-BR": "Sentido publico padrao do veio das portas e frentes.",
+            "en-US": "Official public default grain direction for doors and fronts."
+          },
+          "validation": {
+            "required": true,
+            "enum": [
+              "v",
+              "h"
+            ]
+          },
+          "ui": {
+            "section": "portas",
+            "order": 260,
+            "control": "select",
+            "options": [
+              {
+                "value": "v",
+                "label": {
+                  "pt-BR": "Vertical",
+                  "en-US": "Vertical"
+                }
+              },
+              {
+                "value": "h",
+                "label": {
+                  "pt-BR": "Horizontal",
+                  "en-US": "Horizontal"
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": [
+              {
+                "field": "module_kind",
+                "operator": "in",
+                "values": [
+                  "aereo",
+                  "balcao",
+                  "torre"
+                ]
+              },
+              {
+                "field": "supports_doors",
+                "operator": "equals",
+                "value": true
               }
             ]
           },

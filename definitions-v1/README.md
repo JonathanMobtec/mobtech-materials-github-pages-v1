@@ -1,21 +1,44 @@
-# Milimetrich Definitions v1
+# Milimetrich Public Cloud - definitions-v1
 
-Esta pasta guarda definicoes publicas e versionadas do Milimetrich Public Cloud.
+Status: draft
 
-Arquivo principal:
+Este diretório contém o contrato público inicial das definições do plugin Milimetrich.
 
-* `definitions_manifest.json`
+## v1.2 - Portas e folgas
 
-Somente arquivos publicos devem ser colocados aqui.
+Esta revisão mantém o grupo `prateleiras` e adiciona o grupo `portas`, com campos públicos iniciais para configuração de portas, frentes e folgas.
 
-Nao colocar:
+Campos adicionados no grupo `portas`:
 
-* login
-* senha
-* token
-* licenca
-* dados privados de usuario
-* preferencias pessoais
-* projetos privados
+- `espacamento_portas`
+- `folga_frentes_lateral`
+- `folga_frentes_topo`
+- `folga_frentes_base`
+- `puxador`
+- `sentido_veio_frentes`
 
-Dados privados devem ficar em backend seguro separado.
+## Regras de segurança
+
+- Este manifesto é público e não deve conter login, senha, token, licença, preferências pessoais ou dados privados.
+- O Public Cloud define contrato e metadados públicos.
+- O plugin continua responsável por cachear, validar e mesclar localmente.
+- O backend futuro será responsável por preferências privadas de usuário/equipe.
+- Esta revisão não altera motor, receitas, materiais, exportadores, Scale Guard ou Undo.
+
+## Fluxo de teste recomendado
+
+Depois de publicar no GitHub Pages:
+
+1. Abrir o plugin Milimetrich no SketchUp.
+2. Ir em Técnico > Public Cloud.
+3. Clicar em `Sincronizar definitions-v1`.
+4. Clicar em `Inspecionar origem das definições`.
+5. Clicar em `Gerar relatório de origem`.
+6. Rodar o teste rápido do plugin.
+
+Resultado esperado após esta revisão:
+
+- grupos públicos em overlay: 2
+- campos públicos em overlay: 9
+- campos apenas do Public Cloud: 0
+

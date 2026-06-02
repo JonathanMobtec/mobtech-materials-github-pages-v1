@@ -1,12 +1,12 @@
 {
   "schema": "milimetrich_materials_v2",
   "schema_version": "2.0.0",
-  "catalog_version": "20260601030855",
-  "updated_at": "2026-06-01T03:08:55.814Z",
+  "catalog_version": "20260602013020",
+  "updated_at": "2026-06-02T01:30:20.567Z",
   "publication": {
     "only_active_valid": true,
     "source_total": 110,
-    "published_total": 5
+    "published_total": 110
   },
   "materials": [
     {
@@ -45,16 +45,16 @@
       },
       "attributes": {},
       "created_at": "2026-06-01T02:36:09.797Z",
-      "updated_at": "2026-06-01T02:36:09.797Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
       "published": true,
-      "published_at": "2026-06-01T03:08:55.814Z",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "grain_direction": "vertical",
       "preview_url": "previews/ARAUCO_ACACIA_CARMEL.webp",
       "texture_url": "textures/ARAUCO_ACACIA_CARMEL.jpg",
       "brand_logo_url": "",
       "type": "chapa",
       "texture_width_mm": 1830,
-      "texture_height_mm": 2750,
-      "grain_direction": "vertical"
+      "texture_height_mm": 2750
     },
     {
       "code": "ARAUCO_AMEIXA_NEGRA",
@@ -92,9 +92,9 @@
       },
       "attributes": {},
       "created_at": "2026-06-01T02:36:09.802Z",
-      "updated_at": "2026-06-01T02:36:09.802Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
       "published": true,
-      "published_at": "2026-06-01T03:08:55.814Z",
+      "published_at": "2026-06-02T01:30:20.567Z",
       "preview_url": "previews/ARAUCO_AMEIXA_NEGRA.webp",
       "texture_url": "textures/ARAUCO_AMEIXA_NEGRA.jpg",
       "brand_logo_url": "",
@@ -139,9 +139,9 @@
       },
       "attributes": {},
       "created_at": "2026-06-01T02:36:09.805Z",
-      "updated_at": "2026-06-01T02:36:09.805Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
       "published": true,
-      "published_at": "2026-06-01T03:08:55.814Z",
+      "published_at": "2026-06-02T01:30:20.567Z",
       "preview_url": "previews/ARAUCO_ANIS.webp",
       "texture_url": "textures/ARAUCO_ANIS.jpg",
       "brand_logo_url": "",
@@ -186,9 +186,9 @@
       },
       "attributes": {},
       "created_at": "2026-06-01T02:36:09.807Z",
-      "updated_at": "2026-06-01T02:36:09.807Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
       "published": true,
-      "published_at": "2026-06-01T03:08:55.814Z",
+      "published_at": "2026-06-02T01:30:20.567Z",
       "preview_url": "previews/ARAUCO_AREAL.webp",
       "texture_url": "textures/ARAUCO_AREAL.jpg",
       "brand_logo_url": "",
@@ -236,16 +236,4951 @@
       },
       "attributes": {},
       "created_at": "2026-06-01T02:36:09.811Z",
-      "updated_at": "2026-06-01T03:08:49.762Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
       "published": true,
+      "published_at": "2026-06-02T01:30:20.567Z",
       "preview_url": "previews/ARAUCO_ATENNA.webp",
       "texture_url": "textures/ARAUCO_ATENNA.jpg",
       "brand_logo_url": "",
-      "published_at": "2026-06-01T03:08:55.814Z",
       "type": "chapa",
       "texture_width_mm": 1830,
       "texture_height_mm": 2750,
       "grain_direction": "none"
+    },
+    {
+      "code": "ARAUCO_ATLANTICA",
+      "internal_id": 100006,
+      "name": "Atlantica",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Atlantica, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.814Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_ATLANTICA.webp",
+      "texture_url": "textures/ARAUCO_ATLANTICA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_AUTENTIC",
+      "internal_id": 100007,
+      "name": "Autentic",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Autentic, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.817Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_AUTENTIC.webp",
+      "texture_url": "textures/ARAUCO_AUTENTIC.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_AZUL_SERENO",
+      "internal_id": 100008,
+      "name": "Azul Sereno",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Azul Sereno, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.820Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_AZUL_SERENO.webp",
+      "texture_url": "textures/ARAUCO_AZUL_SERENO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_BEIGE",
+      "internal_id": 100009,
+      "name": "Beige",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Beige, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.821Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_BEIGE.webp",
+      "texture_url": "textures/ARAUCO_BEIGE.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_BETON",
+      "internal_id": 100010,
+      "name": "Beton",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Beton, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.823Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_BETON.webp",
+      "texture_url": "textures/ARAUCO_BETON.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_BLUES_DUETO",
+      "internal_id": 100011,
+      "name": "Blues Dueto",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Blues Dueto, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.825Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_BLUES_DUETO.webp",
+      "texture_url": "textures/ARAUCO_BLUES_DUETO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_BLUES_MATT",
+      "internal_id": 100012,
+      "name": "Blues Matt",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Blues Matt, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "horizontal",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.829Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "horizontal",
+      "preview_url": "previews/ARAUCO_BLUES_MATT.webp",
+      "texture_url": "textures/ARAUCO_BLUES_MATT.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_BOSSA_NOVA_PORO",
+      "internal_id": 100013,
+      "name": "Bossa Nova Poro",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Bossa Nova Poro, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "horizontal",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.831Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "horizontal",
+      "preview_url": "previews/ARAUCO_BOSSA_NOVA_PORO.webp",
+      "texture_url": "textures/ARAUCO_BOSSA_NOVA_PORO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_BRANCOFOSCO",
+      "internal_id": 100014,
+      "name": "Brancofosco",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Brancofosco, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.833Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_BRANCOFOSCO.webp",
+      "texture_url": "textures/ARAUCO_BRANCOFOSCO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_BRANCOGELO",
+      "internal_id": 100015,
+      "name": "Brancogelo",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Brancogelo, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.835Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_BRANCOGELO.webp",
+      "texture_url": "textures/ARAUCO_BRANCOGELO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_BRANCOLOUSA",
+      "internal_id": 100016,
+      "name": "Brancolousa",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Brancolousa, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.837Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_BRANCOLOUSA.webp",
+      "texture_url": "textures/ARAUCO_BRANCOLOUSA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_BRANCO_ICE_SEMIFOSCO",
+      "internal_id": 100017,
+      "name": "Branco Ice Semifosco",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Branco Ice Semifosco, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.839Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_BRANCO_ICE_SEMIFOSCO.webp",
+      "texture_url": "textures/ARAUCO_BRANCO_ICE_SEMIFOSCO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_BRANCO_MAISFOSCO",
+      "internal_id": 100018,
+      "name": "Branco Maisfosco",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Branco Maisfosco, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.841Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_BRANCO_MAISFOSCO.webp",
+      "texture_url": "textures/ARAUCO_BRANCO_MAISFOSCO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_BRANCO_SUPREMO_CHESS",
+      "internal_id": 100019,
+      "name": "Branco Supremo Chess",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Branco Supremo Chess, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.844Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_BRANCO_SUPREMO_CHESS.webp",
+      "texture_url": "textures/ARAUCO_BRANCO_SUPREMO_CHESS.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_BRANCO_SUPREMO_MATT",
+      "internal_id": 100020,
+      "name": "Branco Supremo Matt",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Branco Supremo Matt, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.846Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_BRANCO_SUPREMO_MATT.webp",
+      "texture_url": "textures/ARAUCO_BRANCO_SUPREMO_MATT.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CACAO_CHESS",
+      "internal_id": 100021,
+      "name": "Cacao Chess",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Cacao Chess, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.848Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_CACAO_CHESS.webp",
+      "texture_url": "textures/ARAUCO_CACAO_CHESS.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CACAO_MATT",
+      "internal_id": 100022,
+      "name": "Cacao Matt",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Cacao Matt, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.850Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_CACAO_MATT.webp",
+      "texture_url": "textures/ARAUCO_CACAO_MATT.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CAFELATTE_MATT",
+      "internal_id": 100023,
+      "name": "Cafelatte Matt",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Cafelatte Matt, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.852Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_CAFELATTE_MATT.webp",
+      "texture_url": "textures/ARAUCO_CAFELATTE_MATT.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CANELA",
+      "internal_id": 100024,
+      "name": "Canela",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Canela, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.853Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_CANELA.webp",
+      "texture_url": "textures/ARAUCO_CANELA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CANELATO",
+      "internal_id": 100025,
+      "name": "Canelato",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Canelato, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.857Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_CANELATO.webp",
+      "texture_url": "textures/ARAUCO_CANELATO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CARMELO_MENOR",
+      "internal_id": 100026,
+      "name": "Carmelo Menor",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Carmelo Menor, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.859Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_CARMELO_MENOR.webp",
+      "texture_url": "textures/ARAUCO_CARMELO_MENOR.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CARVALHO",
+      "internal_id": 100027,
+      "name": "Carvalho",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Carvalho, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.862Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_CARVALHO.webp",
+      "texture_url": "textures/ARAUCO_CARVALHO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CARVALHO_AMERICANO",
+      "internal_id": 100028,
+      "name": "Carvalho Americano",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Carvalho Americano, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.865Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_CARVALHO_AMERICANO.webp",
+      "texture_url": "textures/ARAUCO_CARVALHO_AMERICANO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CARVALHO_LEGGERO",
+      "internal_id": 100029,
+      "name": "Carvalho Leggero",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Carvalho Leggero, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.868Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_CARVALHO_LEGGERO.webp",
+      "texture_url": "textures/ARAUCO_CARVALHO_LEGGERO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CARVALHO_MEL",
+      "internal_id": 100030,
+      "name": "Carvalho Mel",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Carvalho Mel, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.871Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_CARVALHO_MEL.webp",
+      "texture_url": "textures/ARAUCO_CARVALHO_MEL.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CASTANHO",
+      "internal_id": 100031,
+      "name": "Castanho",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Castanho, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.873Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_CASTANHO.webp",
+      "texture_url": "textures/ARAUCO_CASTANHO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CEREZO_NATURAL",
+      "internal_id": 100032,
+      "name": "Cerezo Natural",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Cerezo Natural, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.876Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_CEREZO_NATURAL.webp",
+      "texture_url": "textures/ARAUCO_CEREZO_NATURAL.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CERRADO",
+      "internal_id": 100033,
+      "name": "Cerrado",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Cerrado, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.879Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_CERRADO.webp",
+      "texture_url": "textures/ARAUCO_CERRADO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CILIEGIO",
+      "internal_id": 100034,
+      "name": "Ciliegio",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Ciliegio, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.881Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_CILIEGIO.webp",
+      "texture_url": "textures/ARAUCO_CILIEGIO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CINZA_CRISTAL_CHESS",
+      "internal_id": 100035,
+      "name": "Cinza Cristal Chess",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Cinza Cristal Chess, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.884Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_CINZA_CRISTAL_CHESS.webp",
+      "texture_url": "textures/ARAUCO_CINZA_CRISTAL_CHESS.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CINZA_CRISTAL_TX",
+      "internal_id": 100036,
+      "name": "Cinza Cristal Tx",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Cinza Cristal Tx, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.886Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_CINZA_CRISTAL_TX.webp",
+      "texture_url": "textures/ARAUCO_CINZA_CRISTAL_TX.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CINZA_NEW",
+      "internal_id": 100037,
+      "name": "Cinza New",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Cinza New, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.888Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_CINZA_NEW.webp",
+      "texture_url": "textures/ARAUCO_CINZA_NEW.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CINZA_PURO",
+      "internal_id": 100038,
+      "name": "Cinza Puro",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Cinza Puro, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.891Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_CINZA_PURO.webp",
+      "texture_url": "textures/ARAUCO_CINZA_PURO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_COIGUE_CHOCOLATE",
+      "internal_id": 100039,
+      "name": "Coigue Chocolate",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Coigue Chocolate, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.892Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_COIGUE_CHOCOLATE.webp",
+      "texture_url": "textures/ARAUCO_COIGUE_CHOCOLATE.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CONCRETO_DECOR",
+      "internal_id": 100040,
+      "name": "Concreto Decor",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Concreto Decor, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.896Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_CONCRETO_DECOR.webp",
+      "texture_url": "textures/ARAUCO_CONCRETO_DECOR.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CONNECT_MATT",
+      "internal_id": 100041,
+      "name": "Connect Matt",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Connect Matt, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.899Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_CONNECT_MATT.webp",
+      "texture_url": "textures/ARAUCO_CONNECT_MATT.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CRAVO",
+      "internal_id": 100042,
+      "name": "Cravo",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Cravo, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.901Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_CRAVO.webp",
+      "texture_url": "textures/ARAUCO_CRAVO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CRISTALINA",
+      "internal_id": 100043,
+      "name": "Cristalina",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Cristalina, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.903Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_CRISTALINA.webp",
+      "texture_url": "textures/ARAUCO_CRISTALINA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_CUMARU",
+      "internal_id": 100044,
+      "name": "Cumaru",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Cumaru, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.905Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_CUMARU.webp",
+      "texture_url": "textures/ARAUCO_CUMARU.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_DAMASCO",
+      "internal_id": 100045,
+      "name": "Damasco",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Damasco, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.908Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_DAMASCO.webp",
+      "texture_url": "textures/ARAUCO_DAMASCO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_EBANO_CHESS",
+      "internal_id": 100046,
+      "name": "Ebano Chess",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Ebano Chess, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.910Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_EBANO_CHESS.webp",
+      "texture_url": "textures/ARAUCO_EBANO_CHESS.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_EBANO_TX",
+      "internal_id": 100047,
+      "name": "Ebano Tx",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Ebano Tx, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.913Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_EBANO_TX.webp",
+      "texture_url": "textures/ARAUCO_EBANO_TX.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_ESCARLATE",
+      "internal_id": 100048,
+      "name": "Escarlate",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Escarlate, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.915Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_ESCARLATE.webp",
+      "texture_url": "textures/ARAUCO_ESCARLATE.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_FRAPE_MATT",
+      "internal_id": 100049,
+      "name": "Frape Matt",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Frape Matt, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.918Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_FRAPE_MATT.webp",
+      "texture_url": "textures/ARAUCO_FRAPE_MATT.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_FREVO_DUETO",
+      "internal_id": 100050,
+      "name": "Frevo Dueto",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Frevo Dueto, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.920Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_FREVO_DUETO.webp",
+      "texture_url": "textures/ARAUCO_FREVO_DUETO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_FREVO_MATT",
+      "internal_id": 100051,
+      "name": "Frevo Matt",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Frevo Matt, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.922Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_FREVO_MATT.webp",
+      "texture_url": "textures/ARAUCO_FREVO_MATT.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_GINGER",
+      "internal_id": 100052,
+      "name": "Ginger",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Ginger, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.923Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_GINGER.webp",
+      "texture_url": "textures/ARAUCO_GINGER.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_GRAFITO",
+      "internal_id": 100053,
+      "name": "Grafito",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Grafito, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.925Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_GRAFITO.webp",
+      "texture_url": "textures/ARAUCO_GRAFITO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_GRAFITO_ALT",
+      "internal_id": 100054,
+      "name": "Grafito Alt",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Grafito Alt, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.928Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_GRAFITO_ALT.webp",
+      "texture_url": "textures/ARAUCO_GRAFITO_ALT.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_GRIS",
+      "internal_id": 100055,
+      "name": "Gris",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Gris, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.930Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_GRIS.webp",
+      "texture_url": "textures/ARAUCO_GRIS.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_GRIS_ALT",
+      "internal_id": 100056,
+      "name": "Gris Alt",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Gris Alt, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.932Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_GRIS_ALT.webp",
+      "texture_url": "textures/ARAUCO_GRIS_ALT.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_HAYA",
+      "internal_id": 100057,
+      "name": "Haya",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Haya, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.934Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_HAYA.webp",
+      "texture_url": "textures/ARAUCO_HAYA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_IMBUIA",
+      "internal_id": 100058,
+      "name": "Imbuia",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Imbuia, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.937Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_IMBUIA.webp",
+      "texture_url": "textures/ARAUCO_IMBUIA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_IPE_REAL",
+      "internal_id": 100059,
+      "name": "Ipe Real",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Ipe Real, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.940Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_IPE_REAL.webp",
+      "texture_url": "textures/ARAUCO_IPE_REAL.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_JALAPAO",
+      "internal_id": 100060,
+      "name": "Jalapao",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Jalapao, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.942Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_JALAPAO.webp",
+      "texture_url": "textures/ARAUCO_JALAPAO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_JATOBA_BRASILEIRO",
+      "internal_id": 100061,
+      "name": "Jatoba Brasileiro",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Jatoba Brasileiro, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.944Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_JATOBA_BRASILEIRO.webp",
+      "texture_url": "textures/ARAUCO_JATOBA_BRASILEIRO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_JAZZ_MATT",
+      "internal_id": 100062,
+      "name": "Jazz Matt",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Jazz Matt, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.946Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_JAZZ_MATT.webp",
+      "texture_url": "textures/ARAUCO_JAZZ_MATT.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_JEQUITIBA_MENOR",
+      "internal_id": 100063,
+      "name": "Jequitiba Menor",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Jequitiba Menor, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.948Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_JEQUITIBA_MENOR.webp",
+      "texture_url": "textures/ARAUCO_JEQUITIBA_MENOR.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_JEQUTIBA",
+      "internal_id": 100064,
+      "name": "Jequtiba",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Jequtiba, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.951Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_JEQUTIBA.webp",
+      "texture_url": "textures/ARAUCO_JEQUTIBA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_KASHMIR",
+      "internal_id": 100065,
+      "name": "Kashmir",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Kashmir, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.953Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_KASHMIR.webp",
+      "texture_url": "textures/ARAUCO_KASHMIR.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_LAVANDA",
+      "internal_id": 100066,
+      "name": "Lavanda",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Lavanda, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.955Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_LAVANDA.webp",
+      "texture_url": "textures/ARAUCO_LAVANDA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_LINHO",
+      "internal_id": 100067,
+      "name": "Linho",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Linho, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.957Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_LINHO.webp",
+      "texture_url": "textures/ARAUCO_LINHO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_LINO",
+      "internal_id": 100068,
+      "name": "Lino",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Lino, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.959Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_LINO.webp",
+      "texture_url": "textures/ARAUCO_LINO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_LINO_PIOMBO",
+      "internal_id": 100069,
+      "name": "Lino Piombo",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Lino Piombo, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.961Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_LINO_PIOMBO.webp",
+      "texture_url": "textures/ARAUCO_LINO_PIOMBO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_LORD_MATT",
+      "internal_id": 100070,
+      "name": "Lord Matt",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Lord Matt, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.964Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_LORD_MATT.webp",
+      "texture_url": "textures/ARAUCO_LORD_MATT.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_LOURO_FREIJO_PORO",
+      "internal_id": 100071,
+      "name": "Louro Freijo Poro",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Louro Freijo Poro, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.965Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_LOURO_FREIJO_PORO.webp",
+      "texture_url": "textures/ARAUCO_LOURO_FREIJO_PORO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_LOURO_FREIJO_TREND",
+      "internal_id": 100072,
+      "name": "Louro Freijo Trend",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Louro Freijo Trend, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.968Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_LOURO_FREIJO_TREND.webp",
+      "texture_url": "textures/ARAUCO_LOURO_FREIJO_TREND.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_MADEIRAL",
+      "internal_id": 100073,
+      "name": "Madeiral",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Madeiral, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.970Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_MADEIRAL.webp",
+      "texture_url": "textures/ARAUCO_MADEIRAL.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_MARAGOGI",
+      "internal_id": 100074,
+      "name": "Maragogi",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Maragogi, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.973Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_MARAGOGI.webp",
+      "texture_url": "textures/ARAUCO_MARAGOGI.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_MARAU",
+      "internal_id": 100075,
+      "name": "Marau",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Marau, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.974Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_MARAU.webp",
+      "texture_url": "textures/ARAUCO_MARAU.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_MEZZA_BIANCO",
+      "internal_id": 100076,
+      "name": "Mezza Bianco",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Mezza Bianco, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.977Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_MEZZA_BIANCO.webp",
+      "texture_url": "textures/ARAUCO_MEZZA_BIANCO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_MOGNO",
+      "internal_id": 100077,
+      "name": "Mogno",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Mogno, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.980Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_MOGNO.webp",
+      "texture_url": "textures/ARAUCO_MOGNO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_MOSCADA",
+      "internal_id": 100078,
+      "name": "Moscada",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Moscada, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.982Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_MOSCADA.webp",
+      "texture_url": "textures/ARAUCO_MOSCADA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_NOCE_NATURALE",
+      "internal_id": 100079,
+      "name": "Noce Naturale",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Noce Naturale, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.984Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_NOCE_NATURALE.webp",
+      "texture_url": "textures/ARAUCO_NOCE_NATURALE.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_NOGAL",
+      "internal_id": 100080,
+      "name": "Nogal",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Nogal, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.987Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_NOGAL.webp",
+      "texture_url": "textures/ARAUCO_NOGAL.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_NOGAL_TERRACOTA",
+      "internal_id": 100081,
+      "name": "Nogal Terracota",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Nogal Terracota, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.990Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_NOGAL_TERRACOTA.webp",
+      "texture_url": "textures/ARAUCO_NOGAL_TERRACOTA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_NOGUEIRA_PERSA",
+      "internal_id": 100082,
+      "name": "Nogueira Persa",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Nogueira Persa, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.992Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_NOGUEIRA_PERSA.webp",
+      "texture_url": "textures/ARAUCO_NOGUEIRA_PERSA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_NOVA_IMBUIA",
+      "internal_id": 100083,
+      "name": "Nova Imbuia",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Nova Imbuia, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.995Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_NOVA_IMBUIA.webp",
+      "texture_url": "textures/ARAUCO_NOVA_IMBUIA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_OCEANO",
+      "internal_id": 100084,
+      "name": "Oceano",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Oceano, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.997Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_OCEANO.webp",
+      "texture_url": "textures/ARAUCO_OCEANO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_ORLA",
+      "internal_id": 100085,
+      "name": "Orla",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Orla, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:09.999Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_ORLA.webp",
+      "texture_url": "textures/ARAUCO_ORLA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_ORVALHO",
+      "internal_id": 100086,
+      "name": "Orvalho",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Orvalho, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.001Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_ORVALHO.webp",
+      "texture_url": "textures/ARAUCO_ORVALHO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_PALHA",
+      "internal_id": 100087,
+      "name": "Palha",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Palha, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.004Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_PALHA.webp",
+      "texture_url": "textures/ARAUCO_PALHA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_PAU_FERRO",
+      "internal_id": 100088,
+      "name": "Pau Ferro",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Pau Ferro, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.006Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_PAU_FERRO.webp",
+      "texture_url": "textures/ARAUCO_PAU_FERRO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_PERAL",
+      "internal_id": 100089,
+      "name": "Peral",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Peral, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.009Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_PERAL.webp",
+      "texture_url": "textures/ARAUCO_PERAL.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_PETAR",
+      "internal_id": 100090,
+      "name": "Petar",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Petar, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.012Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_PETAR.webp",
+      "texture_url": "textures/ARAUCO_PETAR.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_PIMENTA_ROSA_DUETO",
+      "internal_id": 100091,
+      "name": "Pimenta Rosa Dueto",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Pimenta Rosa Dueto, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.015Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_PIMENTA_ROSA_DUETO.webp",
+      "texture_url": "textures/ARAUCO_PIMENTA_ROSA_DUETO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_PIMENTA_ROSA_MATT",
+      "internal_id": 100092,
+      "name": "Pimenta Rosa Matt",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Pimenta Rosa Matt, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.017Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_PIMENTA_ROSA_MATT.webp",
+      "texture_url": "textures/ARAUCO_PIMENTA_ROSA_MATT.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_PRETO_BRILHO",
+      "internal_id": 100093,
+      "name": "Preto Brilho",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Preto Brilho, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.025Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_PRETO_BRILHO.webp",
+      "texture_url": "textures/ARAUCO_PRETO_BRILHO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_PRIMER_BRANCO_ICE_SEMVERNIZ",
+      "internal_id": 100094,
+      "name": "Primer Branco Ice Semverniz",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Primer Branco Ice Semverniz, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.027Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_PRIMER_BRANCO_ICE_SEMVERNIZ.webp",
+      "texture_url": "textures/ARAUCO_PRIMER_BRANCO_ICE_SEMVERNIZ.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_REALI_MENOR",
+      "internal_id": 100095,
+      "name": "Reali Menor",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Reali Menor, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.030Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_REALI_MENOR.webp",
+      "texture_url": "textures/ARAUCO_REALI_MENOR.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_SALVIA",
+      "internal_id": 100096,
+      "name": "Salvia",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Salvia, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.032Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_SALVIA.webp",
+      "texture_url": "textures/ARAUCO_SALVIA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_SAL_ROSA",
+      "internal_id": 100097,
+      "name": "Sal Rosa",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Sal Rosa, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.034Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_SAL_ROSA.webp",
+      "texture_url": "textures/ARAUCO_SAL_ROSA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_SAMBA_TREND",
+      "internal_id": 100098,
+      "name": "Samba Trend",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Samba Trend, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.036Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_SAMBA_TREND.webp",
+      "texture_url": "textures/ARAUCO_SAMBA_TREND.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_SAPELLI",
+      "internal_id": 100099,
+      "name": "Sapelli",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Sapelli, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.039Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_SAPELLI.webp",
+      "texture_url": "textures/ARAUCO_SAPELLI.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_SERTANEJO_TREND",
+      "internal_id": 100100,
+      "name": "Sertanejo Trend",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Sertanejo Trend, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.042Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_SERTANEJO_TREND.webp",
+      "texture_url": "textures/ARAUCO_SERTANEJO_TREND.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_SILICIO",
+      "internal_id": 100101,
+      "name": "Silicio",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Silicio, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.045Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_SILICIO.webp",
+      "texture_url": "textures/ARAUCO_SILICIO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_SUCUPIRA",
+      "internal_id": 100102,
+      "name": "Sucupira",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Sucupira, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.048Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_SUCUPIRA.webp",
+      "texture_url": "textures/ARAUCO_SUCUPIRA.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_TABACO",
+      "internal_id": 100103,
+      "name": "Tabaco",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Tabaco, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.050Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_TABACO.webp",
+      "texture_url": "textures/ARAUCO_TABACO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_TABACO_STILLO",
+      "internal_id": 100104,
+      "name": "Tabaco Stillo",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Tabaco Stillo, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.053Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_TABACO_STILLO.webp",
+      "texture_url": "textures/ARAUCO_TABACO_STILLO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_TAUARI_CLASSICO_TREND",
+      "internal_id": 100105,
+      "name": "Tauari Classico Trend",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Tauari Classico Trend, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.056Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_TAUARI_CLASSICO_TREND.webp",
+      "texture_url": "textures/ARAUCO_TAUARI_CLASSICO_TREND.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_TEKA_ARTICO",
+      "internal_id": 100106,
+      "name": "Teka Artico",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Teka Artico, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.058Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_TEKA_ARTICO.webp",
+      "texture_url": "textures/ARAUCO_TEKA_ARTICO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_TEKA_ARTIKO",
+      "internal_id": 100107,
+      "name": "Teka Artiko",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Teka Artiko, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.061Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_TEKA_ARTIKO.webp",
+      "texture_url": "textures/ARAUCO_TEKA_ARTIKO.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_VERDE_JADE_MENOR",
+      "internal_id": 100108,
+      "name": "Verde Jade Menor",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Verde Jade Menor, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "none",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.064Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "none",
+      "preview_url": "previews/ARAUCO_VERDE_JADE_MENOR.webp",
+      "texture_url": "textures/ARAUCO_VERDE_JADE_MENOR.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_VERMOUNT_DARK",
+      "internal_id": 100109,
+      "name": "Vermount Dark",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Vermount Dark, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.066Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_VERMOUNT_DARK.webp",
+      "texture_url": "textures/ARAUCO_VERMOUNT_DARK.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
+    },
+    {
+      "code": "ARAUCO_VERMOUNT_OAK",
+      "internal_id": 100110,
+      "name": "Vermount Oak",
+      "brand": "Arauco",
+      "brand_id": "arauco",
+      "active": true,
+      "material_kind": "decor_pattern",
+      "available_for": [
+        "chapa",
+        "fita"
+      ],
+      "line": "",
+      "collection": "",
+      "color_family": "",
+      "tone": "",
+      "legacy_codes": [],
+      "search_terms": "Vermount Oak, Arauco",
+      "board": {
+        "width_mm": 1830,
+        "height_mm": 2750,
+        "grain_direction": "vertical",
+        "thicknesses_mm": [
+          6,
+          15,
+          18,
+          25
+        ]
+      },
+      "edge_banding": {
+        "available": true,
+        "uses_same_texture": true,
+        "widths_mm": []
+      },
+      "attributes": {},
+      "created_at": "2026-06-01T02:36:10.069Z",
+      "updated_at": "2026-06-02T01:26:16.536Z",
+      "published": true,
+      "grain_direction": "vertical",
+      "preview_url": "previews/ARAUCO_VERMOUNT_OAK.webp",
+      "texture_url": "textures/ARAUCO_VERMOUNT_OAK.jpg",
+      "brand_logo_url": "",
+      "published_at": "2026-06-02T01:30:20.567Z",
+      "type": "chapa",
+      "texture_width_mm": 1830,
+      "texture_height_mm": 2750
     }
   ]
 }

@@ -3,8 +3,8 @@
   "schema_version": "1.0.0",
   "status": "draft",
   "public": true,
-  "generated_by": "Milimetrich Admin 6.12.0",
-  "updated_at": "2026-06-03T00:28:17.832Z",
+  "generated_by": "Milimetrich Admin 6.14.0",
+  "updated_at": "2026-06-03T02:36:41.386Z",
   "groups": [
     {
       "key": "divisores",
@@ -167,6 +167,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -185,6 +190,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -347,6 +357,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -365,6 +380,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -383,6 +403,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -401,6 +426,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -494,6 +524,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -512,6 +547,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1017,6 +1057,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1035,6 +1080,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1128,6 +1178,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1146,6 +1201,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1328,6 +1388,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1346,6 +1411,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1364,6 +1434,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1382,6 +1457,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1491,6 +1571,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1509,6 +1594,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1527,6 +1617,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1545,6 +1640,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1654,6 +1754,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1672,6 +1777,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1690,6 +1800,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1708,6 +1823,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1817,6 +1937,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1835,6 +1960,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1853,6 +1983,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1871,6 +2006,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1980,6 +2120,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -1998,6 +2143,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -2016,6 +2166,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -2034,6 +2189,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -2143,6 +2303,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -2161,6 +2326,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -2179,6 +2349,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -2197,6 +2372,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -2306,6 +2486,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -2324,6 +2509,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -2342,6 +2532,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -2360,6 +2555,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -2634,6 +2834,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -2652,6 +2857,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -3251,6 +3461,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -3269,6 +3484,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -3364,6 +3584,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -3382,6 +3607,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -3400,6 +3630,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -4647,6 +4882,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -4665,6 +4905,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -4956,6 +5201,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -4974,6 +5224,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -4992,6 +5247,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -5189,6 +5449,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -5207,6 +5472,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -5335,6 +5605,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -5353,6 +5628,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -5371,6 +5651,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -5389,6 +5674,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -5475,8 +5765,14 @@
             "control": "number"
           },
           "visibility": {
-            "operator": "all",
-            "conditions": []
+            "operator": "any",
+            "conditions": [
+              {
+                "field": "numero_prateleiras",
+                "op": ">",
+                "value": "0"
+              }
+            ]
           },
           "assets": {
             "image_url": null,
@@ -5635,6 +5931,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -5653,6 +5954,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -6271,6 +6577,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -6289,6 +6600,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -6544,6 +6860,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -6562,6 +6883,11 @@
                 "en-US": "",
                 "es-ES": ""
               },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
               "assets": {
                 "image_url": null
               }
@@ -7057,7 +7383,16 @@
       "max": "1310",
       "order": 10,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -7120,7 +7455,16 @@
       "max": "",
       "order": 20,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -7200,7 +7544,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "y",
@@ -7219,7 +7568,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -7239,7 +7593,16 @@
       "max": "",
       "order": 30,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -7299,7 +7662,16 @@
       "max": "",
       "order": 40,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -7395,7 +7767,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "centro",
@@ -7414,7 +7791,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "direita",
@@ -7433,7 +7815,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "esquerda",
@@ -7452,7 +7839,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -7472,7 +7864,16 @@
       "max": "",
       "order": 50,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -7552,7 +7953,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "variavel_acima",
@@ -7571,7 +7977,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -7591,7 +8002,16 @@
       "max": "1600",
       "order": 60,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -7654,7 +8074,16 @@
       "max": "180",
       "order": 70,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -7717,7 +8146,16 @@
       "max": "180",
       "order": 80,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -7780,7 +8218,16 @@
       "max": "",
       "order": 90,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -7841,7 +8288,16 @@
       "max": "",
       "order": 100,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -7902,7 +8358,16 @@
       "max": "100",
       "order": 110,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -7965,7 +8430,16 @@
       "max": "480",
       "order": 120,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -8028,7 +8502,16 @@
       "max": "",
       "order": 130,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -8108,7 +8591,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "h",
@@ -8127,7 +8615,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -8147,7 +8640,16 @@
       "max": "",
       "order": 140,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -8227,7 +8729,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "travessa",
@@ -8246,7 +8753,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -8266,7 +8778,16 @@
       "max": "",
       "order": 150,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -8327,7 +8848,16 @@
       "max": "",
       "order": 160,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -8423,7 +8953,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "lado1",
@@ -8442,7 +8977,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "lado2",
@@ -8461,7 +9001,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "afrente",
@@ -8480,7 +9025,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -8500,7 +9050,16 @@
       "max": "",
       "order": 170,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -8596,7 +9155,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "lado1",
@@ -8615,7 +9179,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "lado2",
@@ -8634,7 +9203,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "afrente",
@@ -8653,7 +9227,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -8673,7 +9252,16 @@
       "max": "",
       "order": 180,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -8769,7 +9357,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "lado1",
@@ -8788,7 +9381,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "lado2",
@@ -8807,7 +9405,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "afrente",
@@ -8826,7 +9429,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -8846,7 +9454,16 @@
       "max": "",
       "order": 190,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -8942,7 +9559,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "lado1",
@@ -8961,7 +9583,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "lado2",
@@ -8980,7 +9607,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "afrente",
@@ -8999,7 +9631,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -9019,7 +9656,16 @@
       "max": "",
       "order": 200,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -9115,7 +9761,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "lado1",
@@ -9134,7 +9785,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "lado2",
@@ -9153,7 +9809,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "afrente",
@@ -9172,7 +9833,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -9192,7 +9858,16 @@
       "max": "",
       "order": 210,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -9288,7 +9963,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "lado1",
@@ -9307,7 +9987,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "lado2",
@@ -9326,7 +10011,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "afrente",
@@ -9345,7 +10035,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -9365,7 +10060,16 @@
       "max": "",
       "order": 220,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -9461,7 +10165,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "lado1",
@@ -9480,7 +10189,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "lado2",
@@ -9499,7 +10213,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "afrente",
@@ -9518,7 +10237,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -9538,7 +10262,16 @@
       "max": "",
       "order": 230,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -9599,7 +10332,16 @@
       "max": "",
       "order": 240,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -9660,7 +10402,16 @@
       "max": "",
       "order": 250,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -9721,7 +10472,16 @@
       "max": "",
       "order": 260,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -9801,7 +10561,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "fora",
@@ -9820,7 +10585,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -9840,7 +10610,16 @@
       "max": "",
       "order": 270,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -9901,7 +10680,16 @@
       "max": "100",
       "order": 280,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -9964,7 +10752,16 @@
       "max": "400",
       "order": 290,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -10021,7 +10818,16 @@
       "max": "80",
       "order": 300,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -10078,7 +10884,16 @@
       "max": "50",
       "order": 310,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -10135,7 +10950,16 @@
       "max": "250",
       "order": 320,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -10192,7 +11016,16 @@
       "max": "80",
       "order": 330,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -10249,7 +11082,16 @@
       "max": "12",
       "order": 340,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -10306,7 +11148,16 @@
       "max": "100",
       "order": 350,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -10369,7 +11220,16 @@
       "max": "",
       "order": 360,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -10443,7 +11303,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "oculta",
@@ -10462,7 +11327,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -10482,7 +11352,16 @@
       "max": "",
       "order": 370,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -10564,7 +11443,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "rasgo",
@@ -10583,7 +11467,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "sobreposto",
@@ -10602,7 +11491,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -10622,7 +11516,16 @@
       "max": "3800",
       "order": 380,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -10685,7 +11588,16 @@
       "max": "1600",
       "order": 390,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -10748,7 +11660,16 @@
       "max": "",
       "order": 400,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -10809,7 +11730,16 @@
       "max": "",
       "order": 410,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -10870,7 +11800,16 @@
       "max": "1100",
       "order": 420,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -10933,7 +11872,16 @@
       "max": "1100",
       "order": 430,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -10996,7 +11944,16 @@
       "max": "",
       "order": 440,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -11059,7 +12016,16 @@
       "max": "5440",
       "order": 450,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -11130,7 +12096,16 @@
       "max": "4600",
       "order": 460,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -11195,7 +12170,16 @@
       "max": "2400",
       "order": 470,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -11264,7 +12248,16 @@
       "max": "5440",
       "order": 480,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -11327,7 +12320,16 @@
       "max": "100",
       "order": 490,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -11390,7 +12392,16 @@
       "max": "",
       "order": 500,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -11450,7 +12461,16 @@
       "max": "3600",
       "order": 510,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -11513,7 +12533,16 @@
       "max": "160",
       "order": 520,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -11576,7 +12605,16 @@
       "max": "160",
       "order": 530,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -11639,7 +12677,16 @@
       "max": "160",
       "order": 540,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -11702,7 +12749,16 @@
       "max": "20",
       "order": 550,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -11765,7 +12821,16 @@
       "max": "",
       "order": 560,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -11825,7 +12890,16 @@
       "max": "",
       "order": 570,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -11905,7 +12979,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "h",
@@ -11924,7 +13003,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -11946,7 +13030,16 @@
       "max": "50",
       "order": 580,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -12005,7 +13098,16 @@
       "max": "30",
       "order": 590,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -12064,7 +13166,16 @@
       "max": "30",
       "order": 600,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -12123,7 +13234,16 @@
       "max": "30",
       "order": 610,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -12182,7 +13302,16 @@
       "max": "",
       "order": 620,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -12237,7 +13366,12 @@
             "en": ""
           },
           "image": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "puxador_concha",
@@ -12256,7 +13390,12 @@
             "en": ""
           },
           "image": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "perfil_gola",
@@ -12275,7 +13414,12 @@
             "en": ""
           },
           "image": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -12295,7 +13439,16 @@
       "max": "",
       "order": 630,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -12355,7 +13508,16 @@
       "max": "100",
       "order": 640,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -12420,7 +13582,16 @@
       "max": "",
       "order": 650,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -12494,7 +13665,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "h",
@@ -12513,7 +13689,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -12533,10 +13714,17 @@
       "max": "",
       "order": 660,
       "status": "published",
-      "visibility": "basic",
-      "applies_to": [
-        "todos"
-      ],
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
+      "applies_to": [],
       "protected": false,
       "protection_level": "",
       "category_defaults": {},
@@ -12622,13 +13810,18 @@
             "es": "",
             "en": ""
           },
+          "description": "",
           "descriptions": {
             "pt": "",
             "es": "",
             "en": ""
           },
           "image": "",
-          "description": "",
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          },
           "active": true
         },
         {
@@ -12641,13 +13834,18 @@
             "es": "",
             "en": ""
           },
+          "description": "",
           "descriptions": {
             "pt": "",
             "es": "",
             "en": ""
           },
           "image": "",
-          "description": "",
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          },
           "active": true
         },
         {
@@ -12660,13 +13858,18 @@
             "es": "",
             "en": ""
           },
+          "description": "",
           "descriptions": {
             "pt": "",
             "es": "",
             "en": ""
           },
           "image": "",
-          "description": "",
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          },
           "active": true
         },
         {
@@ -12679,13 +13882,18 @@
             "es": "",
             "en": ""
           },
+          "description": "",
           "descriptions": {
             "pt": "",
             "es": "",
             "en": ""
           },
           "image": "",
-          "description": "",
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          },
           "active": true
         }
       ]
@@ -12706,7 +13914,16 @@
       "max": "20",
       "order": 670,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -12763,7 +13980,29 @@
       "max": "200",
       "order": 680,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "any",
+        "conditions": [
+          {
+            "field": "numero_prateleiras",
+            "op": ">",
+            "value": "0"
+          }
+        ]
+      },
+      "visibility_rules": {
+        "mode": "any",
+        "operator": "any",
+        "conditions": [
+          {
+            "field": "numero_prateleiras",
+            "op": ">",
+            "value": "0",
+            "note": ""
+          }
+        ]
+      },
       "applies_to": [
         "todos"
       ],
@@ -12773,13 +14012,13 @@
       "description": "Recuo publico padrao aplicado na frente da prateleira, em milimetros.",
       "descriptions": {
         "pt": "Recuo publico padrao aplicado na frente da prateleira, em milimetros.",
-        "es": "",
-        "en": "Official public default setback applied to the shelf front, in millimeters."
+        "en": "Official public default setback applied to the shelf front, in millimeters.",
+        "es": ""
       },
       "translations": {
         "pt": "Recuo frontal da prateleira",
-        "es": "",
-        "en": "Shelf front setback"
+        "en": "Shelf front setback",
+        "es": ""
       },
       "image": "",
       "video": "",
@@ -12820,7 +14059,16 @@
       "max": "200",
       "order": 690,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -12877,7 +14125,16 @@
       "max": "",
       "order": 700,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -12957,7 +14214,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "h",
@@ -12976,7 +14238,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -12996,7 +14263,16 @@
       "max": "300",
       "order": 710,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -13059,7 +14335,16 @@
       "max": "70",
       "order": 720,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -13122,7 +14407,16 @@
       "max": "",
       "order": 730,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -13183,7 +14477,16 @@
       "max": "3200",
       "order": 740,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -13246,7 +14549,16 @@
       "max": "",
       "order": 750,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -13306,7 +14618,16 @@
       "max": "120",
       "order": 760,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -13369,7 +14690,16 @@
       "max": "200",
       "order": 770,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -13432,7 +14762,16 @@
       "max": "100",
       "order": 780,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -13495,7 +14834,16 @@
       "max": "120",
       "order": 790,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -13558,7 +14906,16 @@
       "max": "",
       "order": 800,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -13638,7 +14995,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "h",
@@ -13657,7 +15019,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -13677,7 +15044,16 @@
       "max": "",
       "order": 810,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -13738,7 +15114,16 @@
       "max": "",
       "order": 820,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -13799,7 +15184,16 @@
       "max": "",
       "order": 830,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -13860,7 +15254,16 @@
       "max": "",
       "order": 840,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -13940,7 +15343,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "tampo",
@@ -13959,7 +15367,12 @@
           },
           "image": "",
           "description": "",
-          "active": true
+          "active": true,
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ]
     },
@@ -13979,7 +15392,16 @@
       "max": "",
       "order": 850,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -14040,7 +15462,16 @@
       "max": "",
       "order": 860,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -14101,7 +15532,16 @@
       "max": "100",
       "order": 870,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -14164,7 +15604,16 @@
       "max": "100",
       "order": 880,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -14227,7 +15676,16 @@
       "max": "100",
       "order": 890,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -14290,7 +15748,16 @@
       "max": "58",
       "order": 900,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -14353,7 +15820,16 @@
       "max": "800",
       "order": 910,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -14416,7 +15892,16 @@
       "max": "100",
       "order": 920,
       "status": "published",
-      "visibility": "basic",
+      "visibility_level": "basic",
+      "visibility": {
+        "operator": "all",
+        "conditions": []
+      },
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "applies_to": [
         "todos"
       ],
@@ -21102,6 +22587,11 @@
       },
       "image": "",
       "options": [],
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "videos": {
         "pt": "",
         "es": "",
@@ -21145,6 +22635,11 @@
       },
       "image": "",
       "options": [],
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "videos": {
         "pt": "",
         "es": "",
@@ -21188,6 +22683,11 @@
       },
       "image": "",
       "options": [],
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "videos": {
         "pt": "",
         "es": "",
@@ -21222,6 +22722,11 @@
       },
       "image": "",
       "options": [],
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "videos": {
         "pt": "",
         "es": "",
@@ -21256,6 +22761,11 @@
       },
       "image": "",
       "options": [],
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "videos": {
         "pt": "",
         "es": "",
@@ -21290,6 +22800,11 @@
       },
       "image": "",
       "options": [],
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "videos": {
         "pt": "",
         "es": "",
@@ -21324,6 +22839,11 @@
       },
       "image": "",
       "options": [],
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "videos": {
         "pt": "",
         "es": "",
@@ -21374,7 +22894,12 @@
             "es": "",
             "en": ""
           },
-          "image": ""
+          "image": "",
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "puxador_concha",
@@ -21392,7 +22917,12 @@
             "es": "",
             "en": ""
           },
-          "image": ""
+          "image": "",
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "perfil_gola",
@@ -21410,9 +22940,19 @@
             "es": "",
             "en": ""
           },
-          "image": ""
+          "image": "",
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ],
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "videos": {
         "pt": "",
         "es": "",
@@ -21463,7 +23003,12 @@
             "es": "",
             "en": ""
           },
-          "image": ""
+          "image": "",
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "horizontal",
@@ -21481,7 +23026,12 @@
             "es": "",
             "en": ""
           },
-          "image": ""
+          "image": "",
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         },
         {
           "code": "none",
@@ -21499,9 +23049,19 @@
             "es": "",
             "en": ""
           },
-          "image": ""
+          "image": "",
+          "visibility_rules": {
+            "mode": "always",
+            "operator": "all",
+            "conditions": []
+          }
         }
       ],
+      "visibility_rules": {
+        "mode": "always",
+        "operator": "all",
+        "conditions": []
+      },
       "videos": {
         "pt": "",
         "es": "",

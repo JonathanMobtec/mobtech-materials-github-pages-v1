@@ -4,7 +4,7 @@
   "status": "draft",
   "public": true,
   "generated_by": "Milimetrich Admin 6.15.1",
-  "updated_at": "2026-06-18T18:54:38.072Z",
+  "updated_at": "2026-06-18T20:59:51.051Z",
   "groups": [
     {
       "key": "divisores",
@@ -2117,7 +2117,7 @@
               "value": "sem",
               "code": "sem",
               "labels": {
-                "pt-BR": "sem",
+                "pt-BR": "Sem",
                 "en-US": "sem",
                 "es-ES": "sem"
               },
@@ -2136,13 +2136,13 @@
               }
             },
             {
-              "key": "lado1",
-              "value": "lado1",
-              "code": "lado1",
+              "key": "direita",
+              "value": "direita",
+              "code": "direita",
               "labels": {
-                "pt-BR": "lado1",
-                "en-US": "lado1",
-                "es-ES": "lado1"
+                "pt-BR": "Direita",
+                "en-US": "Direita",
+                "es-ES": "Direita"
               },
               "descriptions": {
                 "pt-BR": "",
@@ -2159,13 +2159,13 @@
               }
             },
             {
-              "key": "lado2",
-              "value": "lado2",
-              "code": "lado2",
+              "key": "esquerda",
+              "value": "esquerda",
+              "code": "esquerda",
               "labels": {
-                "pt-BR": "lado2",
-                "en-US": "lado2",
-                "es-ES": "lado2"
+                "pt-BR": "Esquerda",
+                "en-US": "Esquerda",
+                "es-ES": "Esquerda"
               },
               "descriptions": {
                 "pt-BR": "",
@@ -2182,13 +2182,13 @@
               }
             },
             {
-              "key": "afrente",
-              "value": "afrente",
-              "code": "afrente",
+              "key": "ambos",
+              "value": "ambos",
+              "code": "ambos",
               "labels": {
-                "pt-BR": "afrente",
-                "en-US": "afrente",
-                "es-ES": "afrente"
+                "pt-BR": "Ambos",
+                "en-US": "Ambos",
+                "es-ES": "Ambos"
               },
               "descriptions": {
                 "pt-BR": "",
@@ -9443,7 +9443,7 @@
           "value": "sem",
           "code": "sem",
           "labels": {
-            "pt-BR": "sem",
+            "pt-BR": "Sem",
             "en-US": "sem",
             "es-ES": "sem"
           },
@@ -9462,13 +9462,13 @@
           }
         },
         {
-          "key": "lado1",
-          "value": "lado1",
-          "code": "lado1",
+          "key": "direita",
+          "value": "direita",
+          "code": "direita",
           "labels": {
-            "pt-BR": "lado1",
-            "en-US": "lado1",
-            "es-ES": "lado1"
+            "pt-BR": "Direita",
+            "en-US": "Direita",
+            "es-ES": "Direita"
           },
           "descriptions": {
             "pt-BR": "",
@@ -9485,13 +9485,13 @@
           }
         },
         {
-          "key": "lado2",
-          "value": "lado2",
-          "code": "lado2",
+          "key": "esquerda",
+          "value": "esquerda",
+          "code": "esquerda",
           "labels": {
-            "pt-BR": "lado2",
-            "en-US": "lado2",
-            "es-ES": "lado2"
+            "pt-BR": "Esquerda",
+            "en-US": "Esquerda",
+            "es-ES": "Esquerda"
           },
           "descriptions": {
             "pt-BR": "",
@@ -9508,13 +9508,13 @@
           }
         },
         {
-          "key": "afrente",
-          "value": "afrente",
-          "code": "afrente",
+          "key": "ambos",
+          "value": "ambos",
+          "code": "ambos",
           "labels": {
-            "pt-BR": "afrente",
-            "en-US": "afrente",
-            "es-ES": "afrente"
+            "pt-BR": "Ambos",
+            "en-US": "Ambos",
+            "es-ES": "Ambos"
           },
           "descriptions": {
             "pt-BR": "",

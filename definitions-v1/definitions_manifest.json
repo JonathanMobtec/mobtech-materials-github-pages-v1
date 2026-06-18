@@ -4,7 +4,7 @@
   "status": "draft",
   "public": true,
   "generated_by": "Milimetrich Admin 6.15.1",
-  "updated_at": "2026-06-03T03:33:57.830Z",
+  "updated_at": "2026-06-18T17:00:10.922Z",
   "groups": [
     {
       "key": "divisores",
@@ -1404,13 +1404,13 @@
               }
             },
             {
-              "key": "lado1",
-              "value": "lado1",
-              "code": "lado1",
+              "key": "abaixo",
+              "value": "abaixo",
+              "code": "abaixo",
               "labels": {
-                "pt-BR": "lado1",
-                "en-US": "lado1",
-                "es-ES": "lado1"
+                "pt-BR": "Abaixo",
+                "en-US": "Abaixo",
+                "es-ES": "Abaixo"
               },
               "descriptions": {
                 "pt-BR": "",
@@ -1427,13 +1427,13 @@
               }
             },
             {
-              "key": "lado2",
-              "value": "lado2",
-              "code": "lado2",
+              "key": "acima",
+              "value": "acima",
+              "code": "acima",
               "labels": {
-                "pt-BR": "lado2",
-                "en-US": "lado2",
-                "es-ES": "lado2"
+                "pt-BR": "Acima",
+                "en-US": "Acima",
+                "es-ES": "Acima"
               },
               "descriptions": {
                 "pt-BR": "",
@@ -1450,13 +1450,13 @@
               }
             },
             {
-              "key": "afrente",
-              "value": "afrente",
-              "code": "afrente",
+              "key": "ambos",
+              "value": "ambos",
+              "code": "ambos",
               "labels": {
-                "pt-BR": "afrente",
-                "en-US": "afrente",
-                "es-ES": "afrente"
+                "pt-BR": "Ambos",
+                "en-US": "Ambos",
+                "es-ES": "Ambos"
               },
               "descriptions": {
                 "pt-BR": "",
@@ -1665,7 +1665,7 @@
           "admin_type": "select",
           "technical_type": "string",
           "public": true,
-          "default_value": "afrente",
+          "default_value": "sem",
           "labels": {
             "pt-BR": "Fitagem Largura",
             "en-US": "Fitagem Largura",
@@ -1770,59 +1770,59 @@
               }
             },
             {
-              "key": "lado1",
-              "value": "lado1",
-              "code": "lado1",
-              "labels": {
-                "pt-BR": "lado1",
-                "en-US": "lado1",
-                "es-ES": "lado1"
-              },
-              "descriptions": {
-                "pt-BR": "",
-                "en-US": "",
-                "es-ES": ""
-              },
-              "visibility": {
-                "operator": "all",
-                "conditions": []
-              },
-              "default_allowed": true,
-              "assets": {
-                "image_url": null
-              }
-            },
-            {
-              "key": "lado2",
-              "value": "lado2",
-              "code": "lado2",
-              "labels": {
-                "pt-BR": "lado2",
-                "en-US": "lado2",
-                "es-ES": "lado2"
-              },
-              "descriptions": {
-                "pt-BR": "",
-                "en-US": "",
-                "es-ES": ""
-              },
-              "visibility": {
-                "operator": "all",
-                "conditions": []
-              },
-              "default_allowed": true,
-              "assets": {
-                "image_url": null
-              }
-            },
-            {
               "key": "afrente",
               "value": "afrente",
               "code": "afrente",
               "labels": {
-                "pt-BR": "afrente",
-                "en-US": "afrente",
-                "es-ES": "afrente"
+                "pt-BR": "Afrente",
+                "en-US": "Afrente",
+                "es-ES": "Afrente"
+              },
+              "descriptions": {
+                "pt-BR": "",
+                "en-US": "",
+                "es-ES": ""
+              },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
+              "assets": {
+                "image_url": null
+              }
+            },
+            {
+              "key": "atras",
+              "value": "atras",
+              "code": "atras",
+              "labels": {
+                "pt-BR": "Atras",
+                "en-US": "Atras",
+                "es-ES": "Atras"
+              },
+              "descriptions": {
+                "pt-BR": "",
+                "en-US": "",
+                "es-ES": ""
+              },
+              "visibility": {
+                "operator": "all",
+                "conditions": []
+              },
+              "default_allowed": true,
+              "assets": {
+                "image_url": null
+              }
+            },
+            {
+              "key": "ambos",
+              "value": "ambos",
+              "code": "ambos",
+              "labels": {
+                "pt-BR": "Ambos",
+                "en-US": "Ambos",
+                "es-ES": "Ambos"
               },
               "descriptions": {
                 "pt-BR": "",
@@ -8730,13 +8730,13 @@
           }
         },
         {
-          "key": "lado1",
-          "value": "lado1",
-          "code": "lado1",
+          "key": "abaixo",
+          "value": "abaixo",
+          "code": "abaixo",
           "labels": {
-            "pt-BR": "lado1",
-            "en-US": "lado1",
-            "es-ES": "lado1"
+            "pt-BR": "Abaixo",
+            "en-US": "Abaixo",
+            "es-ES": "Abaixo"
           },
           "descriptions": {
             "pt-BR": "",
@@ -8753,13 +8753,13 @@
           }
         },
         {
-          "key": "lado2",
-          "value": "lado2",
-          "code": "lado2",
+          "key": "acima",
+          "value": "acima",
+          "code": "acima",
           "labels": {
-            "pt-BR": "lado2",
-            "en-US": "lado2",
-            "es-ES": "lado2"
+            "pt-BR": "Acima",
+            "en-US": "Acima",
+            "es-ES": "Acima"
           },
           "descriptions": {
             "pt-BR": "",
@@ -8776,13 +8776,13 @@
           }
         },
         {
-          "key": "afrente",
-          "value": "afrente",
-          "code": "afrente",
+          "key": "ambos",
+          "value": "ambos",
+          "code": "ambos",
           "labels": {
-            "pt-BR": "afrente",
-            "en-US": "afrente",
-            "es-ES": "afrente"
+            "pt-BR": "Ambos",
+            "en-US": "Ambos",
+            "es-ES": "Ambos"
           },
           "descriptions": {
             "pt-BR": "",
@@ -8991,7 +8991,7 @@
       "admin_type": "select",
       "technical_type": "string",
       "public": true,
-      "default_value": "afrente",
+      "default_value": "sem",
       "labels": {
         "pt-BR": "Fitagem Largura",
         "en-US": "Fitagem Largura",
@@ -9096,59 +9096,59 @@
           }
         },
         {
-          "key": "lado1",
-          "value": "lado1",
-          "code": "lado1",
-          "labels": {
-            "pt-BR": "lado1",
-            "en-US": "lado1",
-            "es-ES": "lado1"
-          },
-          "descriptions": {
-            "pt-BR": "",
-            "en-US": "",
-            "es-ES": ""
-          },
-          "visibility": {
-            "operator": "all",
-            "conditions": []
-          },
-          "default_allowed": true,
-          "assets": {
-            "image_url": null
-          }
-        },
-        {
-          "key": "lado2",
-          "value": "lado2",
-          "code": "lado2",
-          "labels": {
-            "pt-BR": "lado2",
-            "en-US": "lado2",
-            "es-ES": "lado2"
-          },
-          "descriptions": {
-            "pt-BR": "",
-            "en-US": "",
-            "es-ES": ""
-          },
-          "visibility": {
-            "operator": "all",
-            "conditions": []
-          },
-          "default_allowed": true,
-          "assets": {
-            "image_url": null
-          }
-        },
-        {
           "key": "afrente",
           "value": "afrente",
           "code": "afrente",
           "labels": {
-            "pt-BR": "afrente",
-            "en-US": "afrente",
-            "es-ES": "afrente"
+            "pt-BR": "Afrente",
+            "en-US": "Afrente",
+            "es-ES": "Afrente"
+          },
+          "descriptions": {
+            "pt-BR": "",
+            "en-US": "",
+            "es-ES": ""
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "default_allowed": true,
+          "assets": {
+            "image_url": null
+          }
+        },
+        {
+          "key": "atras",
+          "value": "atras",
+          "code": "atras",
+          "labels": {
+            "pt-BR": "Atras",
+            "en-US": "Atras",
+            "es-ES": "Atras"
+          },
+          "descriptions": {
+            "pt-BR": "",
+            "en-US": "",
+            "es-ES": ""
+          },
+          "visibility": {
+            "operator": "all",
+            "conditions": []
+          },
+          "default_allowed": true,
+          "assets": {
+            "image_url": null
+          }
+        },
+        {
+          "key": "ambos",
+          "value": "ambos",
+          "code": "ambos",
+          "labels": {
+            "pt-BR": "Ambos",
+            "en-US": "Ambos",
+            "es-ES": "Ambos"
           },
           "descriptions": {
             "pt-BR": "",
